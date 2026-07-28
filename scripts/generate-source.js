@@ -56,7 +56,7 @@ function versionEntry(v) {
     localizedDescription: v.notes,
     downloadURL: v.downloadURL,
     size: v.sizeBytes,
-    minOSVersion: "16.1",
+    minOSVersion: v.minOSVersion || "16.1",
   };
 }
 
