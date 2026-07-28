@@ -1,4 +1,37 @@
 {
   "beta": [],
-  "nightly": []
+  "nightly": [
+    {
+      "version": "1.0.0",
+      "buildVersion": "202607281953",
+      "tag": "nightly-1.0.0-202607281953",
+      "ipaName": "Pumped-nightly-1.0.0-202607281953.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.0.0-202607281953/Pumped-nightly-1.0.0-202607281953.ipa",
+      "sizeBytes": 17373221,
+      "date": "2026-07-28",
+      "notes": "Pumped nightly 1.0.0 (202607281953)",
+      "minOSVersion": "15.1",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "NSCameraUsageDescription",
+            "usageDescription": "Allow PumpedNightly to access your camera"
+          },
+          {
+            "name": "NSFaceIDUsageDescription",
+            "usageDescription": "Allow PumpedNightly to access your Face ID biometric data."
+          },
+          {
+            "name": "NSMicrophoneUsageDescription",
+            "usageDescription": "Allow PumpedNightly to access your microphone"
+          },
+          {
+            "name": "NSPhotoLibraryUsageDescription",
+            "usageDescription": "Allow PumpedNightly to access your photos"
+          }
+        ]
+      }
+    }
+  ]
 }
