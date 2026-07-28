@@ -25,6 +25,13 @@ const CHANNELS = {
     appName: "Pumped Beta",
     bundleIdentifier: "com.rodrigosousa.pumped.beta",
     subtitle: "Workout tracking, in beta.",
+    // Beta forgoes Live Activities so it stays at a single app slot.
+    features: [
+      "Apple Health sync isn't available in sideloaded builds — it needs an",
+      "entitlement a free Apple developer account can't provision. Live",
+      "Activities are left out too, so this stays at one of your three app",
+      "slots rather than two.",
+    ],
   },
   nightly: {
     outFile: "nightly.json",
@@ -33,10 +40,16 @@ const CHANNELS = {
     appName: "Pumped Nightly",
     bundleIdentifier: "com.rodrigosousa.pumped.nightly",
     subtitle: "Bleeding-edge Pumped builds.",
+    features: [
+      "Apple Health sync isn't available in sideloaded builds — it needs an",
+      "entitlement a free Apple developer account can't provision. Live",
+      "Activities do work here, but the widget extension takes a second app",
+      "slot, so this plus SideStore fills all three.",
+    ],
   },
 };
 
-const DESCRIPTION = [
+const DESCRIPTION_BASE = [
   "Pumped is a workout tracker: build templates, log sets as you lift, follow a",
   "split, and watch your lifts trend up over time.",
   "",
@@ -44,9 +57,9 @@ const DESCRIPTION = [
   "Apple account the signature expires after 7 days — refresh it in SideStore",
   "before then to keep the app opening.",
   "",
-  "Apple Health sync and Live Activities are not available in sideloaded builds:",
-  "both need entitlements a free Apple developer account can't provision.",
-].join("\n");
+];
+
+const describe = (channel) => [...DESCRIPTION_BASE, ...channel.features].join("\n");
 
 function versionEntry(v) {
   return {
@@ -68,7 +81,7 @@ function buildSource(channelKey, builds) {
     name: channel.sourceName,
     identifier: channel.sourceIdentifier,
     subtitle: channel.subtitle,
-    description: DESCRIPTION,
+    description: describe(channel),
     iconURL: `${RAW_BASE}/icon.png`,
     website: "https://github.com/rodrigosous-a/pumped-releases",
     apps: [
@@ -77,7 +90,7 @@ function buildSource(channelKey, builds) {
         bundleIdentifier: channel.bundleIdentifier,
         developerName: "Rodrigo Sousa",
         subtitle: channel.subtitle,
-        localizedDescription: DESCRIPTION,
+        localizedDescription: describe(channel),
         iconURL: `${RAW_BASE}/icon.png`,
         tintColor: "FF2056",
         category: "lifestyle",

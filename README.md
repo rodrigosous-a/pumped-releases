@@ -38,7 +38,8 @@ Everything is kg in the database and converted to lbs on display if that's your 
 - **Free Apple accounts sign for 7 days.** Refresh Pumped in SideStore before the signature expires or the app stops opening. Your workout data is untouched by a refresh.
 - **Free accounts allow 3 sideloaded apps at a time.** SideStore itself uses one slot, so you have two left.
 - **Free accounts allow 10 new App IDs per week.** Installing Pumped for the first time uses one; refreshing does not.
-- **Apple Health sync and Live Activities are disabled** in these builds. Both require entitlements a free Apple developer account can't provision. Everything else works.
+- **Apple Health sync is disabled** in these builds — it needs an entitlement a free Apple developer account can't provision. Everything else works.
+- **Live Activities aren't in Beta.** Not a signing limit: a Live Activity needs a widget extension, and every extension costs one of your three app slots. Beta stays at a single slot so you keep room for other sideloaded apps.
 
 ## Updates
 

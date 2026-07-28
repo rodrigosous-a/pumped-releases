@@ -2,7 +2,7 @@
   "name": "Pumped Nightly",
   "identifier": "com.rodrigosousa.pumped.source.nightly",
   "subtitle": "Bleeding-edge Pumped builds.",
-  "description": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync and Live Activities are not available in sideloaded builds:\nboth need entitlements a free Apple developer account can't provision.",
+  "description": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync isn't available in sideloaded builds — it needs an\nentitlement a free Apple developer account can't provision. Live\nActivities do work here, but the widget extension takes a second app\nslot, so this plus SideStore fills all three.",
   "iconURL": "https://raw.githubusercontent.com/rodrigosous-a/pumped-releases/main/icon.png",
   "website": "https://github.com/rodrigosous-a/pumped-releases",
   "apps": [
@@ -11,7 +11,7 @@
       "bundleIdentifier": "com.rodrigosousa.pumped.nightly",
       "developerName": "Rodrigo Sousa",
       "subtitle": "Bleeding-edge Pumped builds.",
-      "localizedDescription": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync and Live Activities are not available in sideloaded builds:\nboth need entitlements a free Apple developer account can't provision.",
+      "localizedDescription": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync isn't available in sideloaded builds — it needs an\nentitlement a free Apple developer account can't provision. Live\nActivities do work here, but the widget extension takes a second app\nslot, so this plus SideStore fills all three.",
       "iconURL": "https://raw.githubusercontent.com/rodrigosous-a/pumped-releases/main/icon.png",
       "tintColor": "FF2056",
       "category": "lifestyle",
