@@ -36,13 +36,13 @@
   "nightly": [
     {
       "version": "1.0.0",
-      "buildVersion": "202607282002",
-      "tag": "nightly-1.0.0-202607282002",
-      "ipaName": "Pumped-nightly-1.0.0-202607282002.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.0.0-202607282002/Pumped-nightly-1.0.0-202607282002.ipa",
-      "sizeBytes": 17431338,
+      "buildVersion": "202607282030",
+      "tag": "nightly-1.0.0-202607282030",
+      "ipaName": "Pumped-nightly-1.0.0-202607282030.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.0.0-202607282030/Pumped-nightly-1.0.0-202607282030.ipa",
+      "sizeBytes": 17520237,
       "date": "2026-07-28",
-      "notes": "Pumped nightly 1.0.0 (202607282002)",
+      "notes": "Adds Live Activities: the workout now shows on the Lock Screen and Dynamic Island.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [],
