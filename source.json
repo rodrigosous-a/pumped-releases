@@ -5,6 +5,50 @@
   "description": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync and Live Activities are not available in sideloaded builds:\nboth need entitlements a free Apple developer account can't provision.",
   "iconURL": "https://raw.githubusercontent.com/rodrigosous-a/pumped-releases/main/icon.png",
   "website": "https://github.com/rodrigosous-a/pumped-releases",
-  "apps": [],
+  "apps": [
+    {
+      "name": "Pumped Beta",
+      "bundleIdentifier": "com.rodrigosousa.pumped.beta",
+      "developerName": "Rodrigo Sousa",
+      "subtitle": "Workout tracking, in beta.",
+      "localizedDescription": "Pumped is a workout tracker: build templates, log sets as you lift, follow a\nsplit, and watch your lifts trend up over time.\n\nSideloaded builds are re-signed on-device with your own Apple ID. On a free\nApple account the signature expires after 7 days — refresh it in SideStore\nbefore then to keep the app opening.\n\nApple Health sync and Live Activities are not available in sideloaded builds:\nboth need entitlements a free Apple developer account can't provision.",
+      "iconURL": "https://raw.githubusercontent.com/rodrigosous-a/pumped-releases/main/icon.png",
+      "tintColor": "FF2056",
+      "category": "lifestyle",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "202607282019",
+          "date": "2026-07-28",
+          "localizedDescription": "First public beta of Pumped.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/beta-1.0.0-202607282019/Pumped-beta-1.0.0-202607282019.ipa",
+          "size": 16948275,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "NSCameraUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your camera"
+          },
+          {
+            "name": "NSFaceIDUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your Face ID biometric data."
+          },
+          {
+            "name": "NSMicrophoneUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your microphone"
+          },
+          {
+            "name": "NSPhotoLibraryUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your photos"
+          }
+        ]
+      }
+    }
+  ],
   "news": []
 }

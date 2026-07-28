@@ -1,5 +1,38 @@
 {
-  "beta": [],
+  "beta": [
+    {
+      "version": "1.0.0",
+      "buildVersion": "202607282019",
+      "tag": "beta-1.0.0-202607282019",
+      "ipaName": "Pumped-beta-1.0.0-202607282019.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/beta-1.0.0-202607282019/Pumped-beta-1.0.0-202607282019.ipa",
+      "sizeBytes": 16948275,
+      "date": "2026-07-28",
+      "notes": "First public beta of Pumped.",
+      "minOSVersion": "15.1",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "NSCameraUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your camera"
+          },
+          {
+            "name": "NSFaceIDUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your Face ID biometric data."
+          },
+          {
+            "name": "NSMicrophoneUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your microphone"
+          },
+          {
+            "name": "NSPhotoLibraryUsageDescription",
+            "usageDescription": "Allow PumpedBeta to access your photos"
+          }
+        ]
+      }
+    }
+  ],
   "nightly": [
     {
       "version": "1.0.0",
