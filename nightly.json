@@ -19,11 +19,11 @@
       "versions": [
         {
           "version": "1.1.0",
-          "buildVersion": "202607282052",
-          "date": "2026-07-28",
-          "localizedDescription": "Pumped nightly 1.1.0 (202607282052)",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.1.0-202607282052/Pumped-nightly-1.1.0-202607282052.ipa",
-          "size": 17520237,
+          "buildVersion": "202607291117",
+          "date": "2026-07-29",
+          "localizedDescription": "Pumped nightly 1.1.0 (202607291117)",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.1.0-202607291117/Pumped-nightly-1.1.0-202607291117.ipa",
+          "size": 17477349,
           "minOSVersion": "15.1"
         }
       ],
