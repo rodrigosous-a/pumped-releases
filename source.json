@@ -18,6 +18,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.2.0",
+          "buildVersion": "202607291136",
+          "date": "2026-07-29",
+          "localizedDescription": "Nav, Home, Training, muscle taxonomy and Library refactor.\n\n- Floating pill tab bar (Home / Training / Library) with a detached Pump button; Pump is now a modal and badges when a workout is running. Schedule and Progress are absorbed into Training.\n- Muscles are a fixed two-level tree (7 groups, 27 muscles). Exercises target several muscles, one primary, and gain an equipment field. Workout screens show the subgroups trained.\n- Training tab: month activity grids, cumulative activity summary vs the previous period (30D/3M/6M/1Y), strength volume by muscle group, per-exercise progression, activity history with text import.\n- Home: \"Today, <date>\" opening a calendar drawer, weekly snapshot with week-over-week deltas, one timeline mixing your activity with people you follow, PR trophies.\n\nRequires database migrations 031-033.\n\nFixes: exercise edits could leave an exercise with no muscles and drop it from every chart; imported exercises matched no muscle filter; the home timeline stopped after one page; failed fetches showed \"no activity yet\" instead of an error; list rows sat under the Pump button; durations could read \"1h 60m\"; Body Stats regained an entry point on the profile screen.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/beta-1.2.0-202607291136/Pumped-beta-1.2.0-202607291136.ipa",
+          "size": 16994018,
+          "minOSVersion": "15.1"
+        },
+        {
           "version": "1.0.0",
           "buildVersion": "202607282019",
           "date": "2026-07-28",
