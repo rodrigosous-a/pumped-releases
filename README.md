@@ -45,10 +45,15 @@ Everything is kg in the database and converted to lbs on display if that's your 
 
 SideStore checks the source for new versions. When one appears, refresh from inside SideStore — it installs over the existing app and keeps your data.
 
+New versions can take up to five minutes to show up — the source files are served through a cache. If SideStore still shows the old version, pull to refresh the source.
+
+**[CHANGELOG.md](CHANGELOG.md)** lists every build ever published here, newest first: what changed, when, and on which channel. Nightly keeps only its latest download, so that file is the only lasting record of what the older builds were.
+
 ## Files
 
 | File | What it is |
 | --- | --- |
+| `CHANGELOG.md` | Every build published here, newest first. Appended by the publish script. |
 | `source.json` | AltSource v2 feed for the Beta channel. This is the one to add. |
 | `nightly.json` | Nightly channel. Unstable owner builds; not meant for general use. |
 | `channels.json` | Source of truth for both feeds. Written by the publish script. |
