@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.3.2",
-      "buildVersion": "202607311219",
-      "tag": "nightly-1.3.2-202607311219",
-      "ipaName": "Pumped-nightly-1.3.2-202607311219.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.3.2-202607311219/Pumped-nightly-1.3.2-202607311219.ipa",
-      "sizeBytes": 17616066,
+      "version": "1.3.3",
+      "buildVersion": "202607311231",
+      "tag": "nightly-1.3.3-202607311231",
+      "ipaName": "Pumped-nightly-1.3.3-202607311231.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.3.3-202607311231/Pumped-nightly-1.3.3-202607311231.ipa",
+      "sizeBytes": 17616068,
       "date": "2026-07-31",
-      "notes": "Pumped nightly 1.3.2 (202607311219)",
+      "notes": "Exporting a completed workout now produces a log of what you lifted rather than a plan of what you meant to.\n\n- Sharing a past workout reported numbers nobody performed: no weights at all, reps averaged across sets, and a set count that excluded warmups and any set entered but not ticked complete. Only the first set's type was shown, for the whole exercise.\n- The export now lists every set with its weight and reps, its set type by name, and the rest taken after it — plus work time where recorded, and per-exercise and per-session totals. Dropsets keep their ladder (80→60→40 kg x 8→6→5), rest-pause sets their clusters (x 10+4+3), and skipped sets and exercises stay visible as skipped.\n- Rest that predates set timing reads \"rest not recorded\" rather than 0:00.\n- Total Weight on a past workout counted a rest-pause set as zero volume.\n- The post-workout share post no longer lists a skipped exercise as \"0 sets\".",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [],
