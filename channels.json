@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.3.3",
-      "buildVersion": "202607311231",
-      "tag": "nightly-1.3.3-202607311231",
-      "ipaName": "Pumped-nightly-1.3.3-202607311231.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.3.3-202607311231/Pumped-nightly-1.3.3-202607311231.ipa",
-      "sizeBytes": 17616068,
-      "date": "2026-07-31",
-      "notes": "Exporting a completed workout now produces a log of what you lifted rather than a plan of what you meant to.\n\n- Sharing a past workout reported numbers nobody performed: no weights at all, reps averaged across sets, and a set count that excluded warmups and any set entered but not ticked complete. Only the first set's type was shown, for the whole exercise.\n- The export now lists every set with its weight and reps, its set type by name, and the rest taken after it — plus work time where recorded, and per-exercise and per-session totals. Dropsets keep their ladder (80→60→40 kg x 8→6→5), rest-pause sets their clusters (x 10+4+3), and skipped sets and exercises stay visible as skipped.\n- Rest that predates set timing reads \"rest not recorded\" rather than 0:00.\n- Total Weight on a past workout counted a rest-pause set as zero volume.\n- The post-workout share post no longer lists a skipped exercise as \"0 sets\".",
+      "version": "1.4.0",
+      "buildVersion": "202608030841",
+      "tag": "nightly-1.4.0-202608030841",
+      "ipaName": "Pumped-nightly-1.4.0-202608030841.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.4.0-202608030841/Pumped-nightly-1.4.0-202608030841.ipa",
+      "sizeBytes": 17619275,
+      "date": "2026-08-03",
+      "notes": "## 1.4.0 — 2026-08-03\n\nYour exercises and your workouts are yours again, and other people are findable\nagain. **Run `supabase/migrations/037_private_exercise_library.sql` before\ninstalling this build** — it is the whole fix for the first three bullets, and\nthe app changes on their own only hide the leak from the app.\n\n- Everyone's custom exercises were pooled into one library, so exercises you\n  created showed up in other people's pickers and theirs showed up in yours. The\n  library is now private to whoever created it. Exercise names still appear\n  alongside a workout you are allowed to see — the feed and a public profile's\n  history would otherwise read \"Unknown Exercise\" — but nobody can browse or\n  search your library, and an exercise you have never performed is yours alone.\n- Workout templates were readable by anyone holding the app's public key, your\n  own private ones included, and the Library and split pickers listed other\n  users' workouts as if they were yours. Templates are back to owner-only, and\n  the app now filters by owner as well as trusting the database to.\n- Nobody was discoverable: new profiles were created private, so search came\n  back empty and your followers list dropped everyone in it. Profiles are public\n  by default now and existing profiles have been switched over — you can still\n  go private from Profile → Public profile. Viewing someone else's followers or\n  following list also returned nothing at all and reported a count of zero;\n  both work now.\n- A public profile means other signed-in people can see your workouts. It no\n  longer means anyone at all can: workout, set and session history is now\n  restricted to signed-in users.\n- Picking a workout for a day of a split cut the name off if it was longer than\n  the row, taking the chevron with it. An unfilled slot in a rolling split also\n  read \"Rest Day\" when it was not one — it now says \"Select workout\".\n- Workouts in the split picker and in the Library show when they were created or\n  last edited, so two workouts both called \"Push\" can be told apart. Editing a\n  split now resolves the names of archived workouts instead of showing\n  \"Unknown\".\n- Plans can be archived by swiping a row in the Library, the same as workouts.\n  The Plans tab already had an \"Archived\" toggle but the only way to put a plan\n  behind it was the plan's own edit screen. Archiving the active plan now\n  deactivates it rather than leaving it scheduling workouts while hidden.\n- Exercise names are no longer globally unique: two people can each have a\n  \"Lateral Raise\" without the second one failing to save.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [],
