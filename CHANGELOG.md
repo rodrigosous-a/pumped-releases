@@ -6,6 +6,38 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.6.0-202608041511 -->
+## 1.6.0 — nightly — 2026-08-04
+
+Build 202608041511 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.6.0-202608041511/Pumped-nightly-1.6.0-202608041511.ipa)
+
+- The tab bar is now the real iOS one instead of a drawing of one. It shrinks
+  out of the way as you scroll down and comes back as you scroll up, it grows
+  with your text size, and VoiceOver reads it as a tab bar.
+- Pump is a tab now rather than a circle beside the bar, and it carries a dot
+  when a workout is in progress. A tab bar cannot lay out a detached shape, so
+  this is the trade the native bar asked for.
+- Home and Training use the real navigation bar too. The title starts large and
+  shrinks into the bar as you scroll, and content blurs underneath it rather
+  than stopping at its edge. On Home the calendar moved into the bar on the
+  left, because a native title is not something you can tap.
+- A workout's personal records were a row of chips that spilled onto a third
+  line and ended in "+3 PRs". It is one line with a medal and a count now; the
+  exercises that earned them are still on the workout itself.
+- Library still has the old hand-drawn header; it is next.
+
+- The same workout reported a different number of working sets depending on
+  where you looked at it. Home, the calendar and Training counted every set
+  that wasn't a warm-up; a public profile, a past workout's detail screen and
+  the text you get from exporting a workout counted only sets labelled
+  "Working", so backoff, dropset, myo-reps, rest-pause and partial sets
+  vanished from the total. There is one rule now, and it is the generous one.
+  The export was the worst of the three, because the wrong number left the app.
+- A public profile's Weight moved was too high: it added up sets you had
+  skipped.
+- Opening your own profile from a feed or a search result navigated away
+  mid-render, which could leave the screen blank.
+
 <!-- nightly-1.4.0-202608030841 -->
 ## 1.4.0 — nightly — 2026-08-03
 
