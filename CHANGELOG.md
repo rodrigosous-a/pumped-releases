@@ -6,6 +6,19 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.8.2-202608051350 -->
+## 1.8.2 — nightly — 2026-08-05
+
+Build 202608051350 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.2-202608051350/Pumped-nightly-1.8.2-202608051350.ipa)
+
+**Fixed**
+- Tapping the activity rings on Home did nothing. The rings themselves were
+  swallowing the tap. They open the Activity screen now, and there's a chevron
+  so it's clear they're tappable.
+- Apple Health is confirmed unavailable on sideloaded builds — iOS never grants
+  the permission, so the steps ring stays hidden and the app no longer waits on
+  it.
+
 <!-- nightly-1.8.1-202608051204 -->
 ## 1.8.1 — nightly — 2026-08-05
 

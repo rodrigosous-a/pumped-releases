@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.8.1",
-          "buildVersion": "202608051204",
+          "version": "1.8.2",
+          "buildVersion": "202608051350",
           "date": "2026-08-05",
-          "localizedDescription": "**Fixed**\n- The steps ring sat empty on Home because this build can't reach Apple Health.\n  It is hidden until Health works, so the rings show what they can actually\n  measure. When Health connects, steps come back as the outer ring.\n- The Activity screen now says why Health is unavailable instead of leaving a\n  blank ring unexplained.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.1-202608051204/Pumped-nightly-1.8.1-202608051204.ipa",
-          "size": 16320496,
+          "localizedDescription": "**Fixed**\n- Tapping the activity rings on Home did nothing. The rings themselves were\n  swallowing the tap. They open the Activity screen now, and there's a chevron\n  so it's clear they're tappable.\n- Apple Health is confirmed unavailable on sideloaded builds — iOS never grants\n  the permission, so the steps ring stays hidden and the app no longer waits on\n  it.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.2-202608051350/Pumped-nightly-1.8.2-202608051350.ipa",
+          "size": 16321881,
           "minOSVersion": "15.1"
         }
       ],
