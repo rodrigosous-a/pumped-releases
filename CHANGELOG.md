@@ -6,6 +6,13 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.0-202608052159 -->
+## 1.9.0 — nightly — 2026-08-05
+
+Build 202608052159 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.0-202608052159/Pumped-nightly-1.9.0-202608052159.ipa)
+
+Pumped nightly 1.9.0 (202608052159)
+
 <!-- nightly-1.8.3-202608052105 -->
 ## 1.8.3 — nightly — 2026-08-05
 

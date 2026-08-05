@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.8.3",
-          "buildVersion": "202608052105",
+          "version": "1.9.0",
+          "buildVersion": "202608052159",
           "date": "2026-08-05",
-          "localizedDescription": "**New**\n- Your weekly snapshot is back on Home: workouts, time trained and weight\n  moved, each against last week. Tap it to open Training.\n\n**Changed**\n- The activity rings are hidden for now. Two of their three metrics work, but\n  they were built around step counts and a sideloaded build can't get Apple\n  Health access. They return when it can.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.3-202608052105/Pumped-nightly-1.8.3-202608052105.ipa",
-          "size": 16320883,
+          "localizedDescription": "Pumped nightly 1.9.0 (202608052159)",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.0-202608052159/Pumped-nightly-1.9.0-202608052159.ipa",
+          "size": 16359035,
           "minOSVersion": "15.1"
         }
       ],
