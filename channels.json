@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.8.2",
-      "buildVersion": "202608051350",
-      "tag": "nightly-1.8.2-202608051350",
-      "ipaName": "Pumped-nightly-1.8.2-202608051350.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.2-202608051350/Pumped-nightly-1.8.2-202608051350.ipa",
-      "sizeBytes": 16321881,
+      "version": "1.8.3",
+      "buildVersion": "202608052105",
+      "tag": "nightly-1.8.3-202608052105",
+      "ipaName": "Pumped-nightly-1.8.3-202608052105.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.3-202608052105/Pumped-nightly-1.8.3-202608052105.ipa",
+      "sizeBytes": 16320883,
       "date": "2026-08-05",
-      "notes": "**Fixed**\n- Tapping the activity rings on Home did nothing. The rings themselves were\n  swallowing the tap. They open the Activity screen now, and there's a chevron\n  so it's clear they're tappable.\n- Apple Health is confirmed unavailable on sideloaded builds — iOS never grants\n  the permission, so the steps ring stays hidden and the app no longer waits on\n  it.",
+      "notes": "**New**\n- Your weekly snapshot is back on Home: workouts, time trained and weight\n  moved, each against last week. Tap it to open Training.\n\n**Changed**\n- The activity rings are hidden for now. Two of their three metrics work, but\n  they were built around step counts and a sideloaded build can't get Apple\n  Health access. They return when it can.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

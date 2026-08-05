@@ -6,6 +6,20 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.8.3-202608052105 -->
+## 1.8.3 — nightly — 2026-08-05
+
+Build 202608052105 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.3-202608052105/Pumped-nightly-1.8.3-202608052105.ipa)
+
+**New**
+- Your weekly snapshot is back on Home: workouts, time trained and weight
+  moved, each against last week. Tap it to open Training.
+
+**Changed**
+- The activity rings are hidden for now. Two of their three metrics work, but
+  they were built around step counts and a sideloaded build can't get Apple
+  Health access. They return when it can.
+
 <!-- nightly-1.8.2-202608051350 -->
 ## 1.8.2 — nightly — 2026-08-05
 
