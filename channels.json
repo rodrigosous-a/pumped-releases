@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.8.0",
-      "buildVersion": "202608051107",
-      "tag": "nightly-1.8.0-202608051107",
-      "ipaName": "Pumped-nightly-1.8.0-202608051107.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.0-202608051107/Pumped-nightly-1.8.0-202608051107.ipa",
-      "sizeBytes": 16318865,
+      "version": "1.8.1",
+      "buildVersion": "202608051204",
+      "tag": "nightly-1.8.1-202608051204",
+      "ipaName": "Pumped-nightly-1.8.1-202608051204.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.1-202608051204/Pumped-nightly-1.8.1-202608051204.ipa",
+      "sizeBytes": 16320496,
       "date": "2026-08-05",
-      "notes": "Home now opens on your activity rings, the whole app uses the real iOS\nnavigation and tab bars, and launching no longer flashes black.\n\n**New**\n- Activity rings on Home: steps, workout minutes and cardio for the day. Swipe\n  the card for the week's totals, or tap it for the last 30 days and to set\n  your goals.\n- A rest day has no workout target, so a day off doesn't count against you.\n- Today's workout sits as a chip under the date. Tap it to start.\n- Apple Health reports your weekly steps, daily average and step streak.\n\n**Improved**\n- The tab bar is the real iOS one. It gets out of the way as you scroll, grows\n  with your text size, and VoiceOver reads it properly. Pump is a tab now.\n- Home, Training, Library and Pump have real navigation bars: the title starts\n  large and shrinks into the bar as you scroll, with content blurring beneath.\n- Library's search is the system search field, with a Cancel button, and it\n  hides as you scroll.\n- Feed cards are one layout for workouts and cardio, built around the name you\n  gave the session, in the colour you chose for it.\n- A workout's personal records are one chip with a medal and a count.\n- The activity calendar on Training uses three distinct colours, so one workout\n  no longer looks like three.\n- A past workout opens with its name in the bar and edit, share and delete\n  beside it.\n- Timers and other counting numbers no longer jitter as the digits change.\n\n**Fixed**\n- Launching flashed black for over a second between the splash and the app.\n- Large titles didn't move when you scrolled — content slid over them.\n- A past workout showed its name twice.\n- Your profile had no back arrow.\n- The same workout reported different set counts in different places, and an\n  exported workout wrote the wrong number to the file.\n- A public profile's Weight moved counted sets you had skipped.",
+      "notes": "**Fixed**\n- The steps ring sat empty on Home because this build can't reach Apple Health.\n  It is hidden until Health works, so the rings show what they can actually\n  measure. When Health connects, steps come back as the outer ring.\n- The Activity screen now says why Health is unavailable instead of leaving a\n  blank ring unexplained.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

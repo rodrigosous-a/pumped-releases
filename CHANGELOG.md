@@ -6,6 +6,18 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.8.1-202608051204 -->
+## 1.8.1 — nightly — 2026-08-05
+
+Build 202608051204 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.1-202608051204/Pumped-nightly-1.8.1-202608051204.ipa)
+
+**Fixed**
+- The steps ring sat empty on Home because this build can't reach Apple Health.
+  It is hidden until Health works, so the rings show what they can actually
+  measure. When Health connects, steps come back as the outer ring.
+- The Activity screen now says why Health is unavailable instead of leaving a
+  blank ring unexplained.
+
 <!-- nightly-1.8.0-202608051107 -->
 ## 1.8.0 — nightly — 2026-08-05
 
