@@ -6,6 +6,95 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.8.0-202608051107 -->
+## 1.8.0 — nightly — 2026-08-05
+
+Build 202608051107 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.8.0-202608051107/Pumped-nightly-1.8.0-202608051107.ipa)
+
+**Run `supabase/migrations/038_daily_activity_goals.sql` before installing.**
+It widens the goals table so daily targets can live in it, and seeds sensible
+ones. Without it the rings still draw, but changing a goal fails to save.
+
+- Home leads with activity rings. Three of them: steps outermost, workout
+  minutes, then cardio. Swipe the card sideways for the week's totals, or tap
+  it for the last 30 days as a strip of rings you can scroll back through and
+  tap to inspect — and for the goals themselves, which you set right there
+  with + and −.
+- **A rest day has no workout target.** Its ring is drawn empty and neutral
+  rather than as 0% of something, so a day you were never meant to train does
+  not read as a day you missed.
+- The three "This week" tiles are gone; the rings and their second page
+  replace them.
+- Steps need Apple Health, which the sideload build still cannot ask for — the
+  steps ring says "No data" rather than zero, and workout and cardio work
+  regardless.
+- Apple Health, when it does connect, now reports the week's steps, the daily
+  average and a streak. Those three have been declared in the code since it
+  was written and never once filled in.
+
+- Groundwork for Apple Health on the nightly build, plus everything below that
+  has not shipped yet. Health itself is **not** connected: the build now
+  declares what it would read and the module is linked again, but these builds
+  are packaged unsigned and that strips the entitlement Health needs, so it
+  cannot ask for access yet. If a Health prompt does appear on first launch,
+  tell me — it would mean SideStore grants more than expected.
+
+- A past workout's date and duration line up with its title instead of sitting
+  centred under it.
+
+- A past workout showed its name twice — once in the bar, once again below it.
+  The bar's copy now behaves like the rest of the app: the name starts large
+  under the bar and shrinks into it as you scroll past. Edit, share and delete
+  moved into the bar with it.
+- Your profile has a back arrow. It was pushed from Home with no way out but
+  the tab bar.
+
+- The activity calendar on Training is readable now. Days were dark red
+  squares with a 9pt number crammed inside, and one workout looked much like
+  three. They are pills on a ramp of three distinct colours — lime for one
+  activity, green for two, teal for three or more — with the count spelled out
+  underneath instead of a cryptic "1 2 3+". Today is outlined in blue. The
+  numbers are gone: at seven columns to half a screen there was never room to
+  read them, and the calendar drawer is where you go for a specific date.
+
+- Feed cards are tighter: smaller type throughout, a smaller avatar, and the
+  PR count moved up next to your name as a chip. Three fit on screen where two
+  did.
+
+- Feed cards are one layout for everything, built around what you called the
+  session. A strength workout shows "Lower"; a cardio one shows "Stairs" — the
+  name you picked, not the category. Under it, four columns: Type, Working
+  sets, Weight moved and Time for a workout; Type, whatever the activity
+  recorded, and Time for cardio. The chip takes the colour you gave the
+  workout, so a Push and a Pull are told apart at a glance.
+
+- Today's workout is a chip under the date instead of a card taking up a third
+  of the screen above your week. Same three states — tap it to start, tap it to
+  review what you did, or see that today is a rest day — just the name, no
+  card.
+
+- The large title on Home, Training, Library and Pump did not move when you
+  scrolled. It sat over the content instead of shrinking into the bar, and
+  whatever you scrolled slid across it, unblurred and up over the clock. All
+  four collapse properly now, with content dimming as it passes underneath.
+
+- Launching no longer flashes black. The splash used to disappear almost
+  immediately and leave you on a black screen for over a second while the app
+  worked out who you were and drew the first screen; now it stays up until
+  there is a screen to hand over to, and cross-fades into it. Measured on a
+  release build: 1.2s of black before, about 0.2s after, and that is inside
+  the fade.
+- Timers, and every other number that ticks, no longer jitter as the digits
+  change. They were set in a typewriter face to hold their width — they now
+  use the system font with fixed-width figures, the way Clock and Fitness do,
+  so they match the rest of the app.
+
+- Library has the same navigation bar as the rest of the app now, so all three
+  tabs match. Its search is the system's own search field rather than a text
+  box drawn in the page: it sits under the title, hides as you scroll, and has
+  a Cancel button. The Exercises/Workouts/Plans picker and the muscle filter
+  scroll with the list instead of being pinned.
+
 <!-- nightly-1.7.0-202608051025 -->
 ## 1.7.0 — nightly — 2026-08-05
 
