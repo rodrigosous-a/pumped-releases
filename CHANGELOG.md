@@ -6,6 +6,27 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.2-202608060900 -->
+## 1.9.2 — nightly — 2026-08-06
+
+Build 202608060900 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.2-202608060900/Pumped-nightly-1.9.2-202608060900.ipa)
+
+Keyboards, mostly: pick any emoji your phone has for a journal item, see what
+you are typing, and close a keyboard that will not go away.
+
+**Improved**
+- Adding your own journal item no longer limits you to the 32 icons we happened
+  to think of. Tap the icon and your own keyboard opens — pick any emoji your
+  phone has, flags and skin tones included.
+- Writing a note in the journal used to happen behind the keyboard. Sheets now
+  ride above the keyboard instead of under it, so you can see what you are
+  typing — in the journal and everywhere else a sheet asks for text.
+
+**Fixed**
+- A keyboard could get stuck on screen with no way to close it, most visibly on
+  the sign-in screen and on number pads, which have no return key. Every
+  keyboard now has a chevron in the corner that closes it.
+
 <!-- nightly-1.9.1-202608060826 -->
 ## 1.9.1 — nightly — 2026-08-06
 

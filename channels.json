@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.9.1",
-      "buildVersion": "202608060826",
-      "tag": "nightly-1.9.1-202608060826",
-      "ipaName": "Pumped-nightly-1.9.1-202608060826.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.1-202608060826/Pumped-nightly-1.9.1-202608060826.ipa",
-      "sizeBytes": 16360079,
+      "version": "1.9.2",
+      "buildVersion": "202608060900",
+      "tag": "nightly-1.9.2-202608060900",
+      "ipaName": "Pumped-nightly-1.9.2-202608060900.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.2-202608060900/Pumped-nightly-1.9.2-202608060900.ipa",
+      "sizeBytes": 16360781,
       "date": "2026-08-06",
-      "notes": "**Improved**\n- The rest timer used to vanish the instant it hit zero, so glancing down a\n  second late told you nothing — had the rest just ended, or had you been\n  standing around for two minutes? The bar now stays put at 0:00, labelled\n  \"Rest complete\", until you tap Done or open the next set. +15 from there gives\n  you a fresh fifteen seconds if you want a little more.",
+      "notes": "Keyboards, mostly: pick any emoji your phone has for a journal item, see what\nyou are typing, and close a keyboard that will not go away.\n\n**Improved**\n- Adding your own journal item no longer limits you to the 32 icons we happened\n  to think of. Tap the icon and your own keyboard opens — pick any emoji your\n  phone has, flags and skin tones included.\n- Writing a note in the journal used to happen behind the keyboard. Sheets now\n  ride above the keyboard instead of under it, so you can see what you are\n  typing — in the journal and everywhere else a sheet asks for text.\n\n**Fixed**\n- A keyboard could get stuck on screen with no way to close it, most visibly on\n  the sign-in screen and on number pads, which have no return key. Every\n  keyboard now has a chevron in the corner that closes it.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [
