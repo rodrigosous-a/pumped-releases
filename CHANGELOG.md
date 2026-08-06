@@ -6,6 +6,18 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.1-202608060826 -->
+## 1.9.1 — nightly — 2026-08-06
+
+Build 202608060826 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.1-202608060826/Pumped-nightly-1.9.1-202608060826.ipa)
+
+**Improved**
+- The rest timer used to vanish the instant it hit zero, so glancing down a
+  second late told you nothing — had the rest just ended, or had you been
+  standing around for two minutes? The bar now stays put at 0:00, labelled
+  "Rest complete", until you tap Done or open the next set. +15 from there gives
+  you a fresh fifteen seconds if you want a little more.
+
 <!-- nightly-1.9.0-202608052159 -->
 ## 1.9.0 — nightly — 2026-08-05
 

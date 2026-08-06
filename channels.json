@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.9.0",
-      "buildVersion": "202608052159",
-      "tag": "nightly-1.9.0-202608052159",
-      "ipaName": "Pumped-nightly-1.9.0-202608052159.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.0-202608052159/Pumped-nightly-1.9.0-202608052159.ipa",
-      "sizeBytes": 16359035,
-      "date": "2026-08-05",
-      "notes": "Pumped nightly 1.9.0 (202608052159)",
+      "version": "1.9.1",
+      "buildVersion": "202608060826",
+      "tag": "nightly-1.9.1-202608060826",
+      "ipaName": "Pumped-nightly-1.9.1-202608060826.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.1-202608060826/Pumped-nightly-1.9.1-202608060826.ipa",
+      "sizeBytes": 16360079,
+      "date": "2026-08-06",
+      "notes": "**Improved**\n- The rest timer used to vanish the instant it hit zero, so glancing down a\n  second late told you nothing — had the rest just ended, or had you been\n  standing around for two minutes? The bar now stays put at 0:00, labelled\n  \"Rest complete\", until you tap Done or open the next set. +15 from there gives\n  you a fresh fifteen seconds if you want a little more.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [
