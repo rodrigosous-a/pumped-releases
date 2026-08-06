@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.9.2",
-          "buildVersion": "202608060900",
+          "version": "1.9.3",
+          "buildVersion": "202608061343",
           "date": "2026-08-06",
-          "localizedDescription": "Keyboards, mostly: pick any emoji your phone has for a journal item, see what\nyou are typing, and close a keyboard that will not go away.\n\n**Improved**\n- Adding your own journal item no longer limits you to the 32 icons we happened\n  to think of. Tap the icon and your own keyboard opens — pick any emoji your\n  phone has, flags and skin tones included.\n- Writing a note in the journal used to happen behind the keyboard. Sheets now\n  ride above the keyboard instead of under it, so you can see what you are\n  typing — in the journal and everywhere else a sheet asks for text.\n\n**Fixed**\n- A keyboard could get stuck on screen with no way to close it, most visibly on\n  the sign-in screen and on number pads, which have no return key. Every\n  keyboard now has a chevron in the corner that closes it.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.2-202608060900/Pumped-nightly-1.9.2-202608060900.ipa",
-          "size": 16360781,
+          "localizedDescription": "**Fixed**\n- Every list, sheet and drawer wore a grey band across its first rows on iOS 26,\n  which swallowed the top of the weight picker, the set menu and the exercise\n  history. The band is gone.\n- Swapping an exercise mid-workout was a one-way door: the sheet listed the\n  alternatives you had set up, but never the exercise you started with, so\n  changing your mind meant hunting for it in the full exercise list. The\n  original is now the first thing the sheet offers.\n- The exercise you had just swapped to was still listed as one of its own\n  alternatives.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.3-202608061343/Pumped-nightly-1.9.3-202608061343.ipa",
+          "size": 16363292,
           "minOSVersion": "15.1"
         }
       ],

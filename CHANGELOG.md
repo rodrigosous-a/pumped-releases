@@ -6,6 +6,22 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.3-202608061343 -->
+## 1.9.3 — nightly — 2026-08-06
+
+Build 202608061343 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.3-202608061343/Pumped-nightly-1.9.3-202608061343.ipa)
+
+**Fixed**
+- Every list, sheet and drawer wore a grey band across its first rows on iOS 26,
+  which swallowed the top of the weight picker, the set menu and the exercise
+  history. The band is gone.
+- Swapping an exercise mid-workout was a one-way door: the sheet listed the
+  alternatives you had set up, but never the exercise you started with, so
+  changing your mind meant hunting for it in the full exercise list. The
+  original is now the first thing the sheet offers.
+- The exercise you had just swapped to was still listed as one of its own
+  alternatives.
+
 <!-- nightly-1.9.2-202608060900 -->
 ## 1.9.2 — nightly — 2026-08-06
 
