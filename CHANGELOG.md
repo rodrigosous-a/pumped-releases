@@ -6,6 +6,23 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.4-202608141208 -->
+## 1.9.4 — nightly — 2026-08-14
+
+Build 202608141208 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.4-202608141208/Pumped-nightly-1.9.4-202608141208.ipa)
+
+**Improved**
+- Opening a workout now shows the full preview straight away — exercise count,
+  total sets, estimated time and the muscles it hits — instead of a plainer list
+  that made you tap Start once to see it and again to actually begin. Starting a
+  workout is one tap shorter, and every route in (Library, the Pump sheet, your
+  split's workout for today) lands on the same screen.
+
+**Fixed**
+- The button for logging a set showed a play arrow until you tapped it, which
+  read like it would start something. It is a checkmark now, greyed out until
+  the set is logged and green afterwards.
+
 <!-- nightly-1.9.3-202608061343 -->
 ## 1.9.3 — nightly — 2026-08-06
 

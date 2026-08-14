@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.9.3",
-      "buildVersion": "202608061343",
-      "tag": "nightly-1.9.3-202608061343",
-      "ipaName": "Pumped-nightly-1.9.3-202608061343.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.3-202608061343/Pumped-nightly-1.9.3-202608061343.ipa",
-      "sizeBytes": 16363292,
-      "date": "2026-08-06",
-      "notes": "**Fixed**\n- Every list, sheet and drawer wore a grey band across its first rows on iOS 26,\n  which swallowed the top of the weight picker, the set menu and the exercise\n  history. The band is gone.\n- Swapping an exercise mid-workout was a one-way door: the sheet listed the\n  alternatives you had set up, but never the exercise you started with, so\n  changing your mind meant hunting for it in the full exercise list. The\n  original is now the first thing the sheet offers.\n- The exercise you had just swapped to was still listed as one of its own\n  alternatives.",
+      "version": "1.9.4",
+      "buildVersion": "202608141208",
+      "tag": "nightly-1.9.4-202608141208",
+      "ipaName": "Pumped-nightly-1.9.4-202608141208.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.4-202608141208/Pumped-nightly-1.9.4-202608141208.ipa",
+      "sizeBytes": 16360332,
+      "date": "2026-08-14",
+      "notes": "**Improved**\n- Opening a workout now shows the full preview straight away — exercise count,\n  total sets, estimated time and the muscles it hits — instead of a plainer list\n  that made you tap Start once to see it and again to actually begin. Starting a\n  workout is one tap shorter, and every route in (Library, the Pump sheet, your\n  split's workout for today) lands on the same screen.\n\n**Fixed**\n- The button for logging a set showed a play arrow until you tapped it, which\n  read like it would start something. It is a checkmark now, greyed out until\n  the set is logged and green afterwards.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [
