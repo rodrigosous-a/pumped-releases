@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.10.1",
-      "buildVersion": "202608181411",
-      "tag": "nightly-1.10.1-202608181411",
-      "ipaName": "Pumped-nightly-1.10.1-202608181411.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.10.1-202608181411/Pumped-nightly-1.10.1-202608181411.ipa",
-      "sizeBytes": 16388565,
+      "version": "1.11.0",
+      "buildVersion": "202608181502",
+      "tag": "nightly-1.11.0-202608181502",
+      "ipaName": "Pumped-nightly-1.11.0-202608181502.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.11.0-202608181502/Pumped-nightly-1.11.0-202608181502.ipa",
+      "sizeBytes": 16388556,
       "date": "2026-08-18",
-      "notes": "**Fixed**\n- 1.10.0 crashed the moment the active workout screen opened — starting a\n  workout, resuming one from Home, or tapping the Live Activity all killed\n  the app. The set checkmark's new animation was the culprit; it no longer\n  takes the app down with it.",
+      "notes": "Looking backwards at an exercise is now one screen instead of two,\nexercises can share a name when the equipment differs, and a rolling split\nfollows the workout you actually did.\n\n**New**\n- Two exercises can share a name as long as the equipment differs, so a\n  machine Chest Press and a dumbbell Chest Press can both just be called\n  \"Chest Press\". Whichever list they appear in, the equipment is written\n  underneath so you can tell them apart. The second one has to have its\n  equipment set — that is the thing doing the telling.\n\n**Fixed**\n- A rolling split now continues from the workout you actually did. If Upper 1\n  was next but you trained Upper 2, tomorrow follows Upper 2 instead of\n  offering Upper 2 all over again. A workout that is not part of the split no\n  longer moves it at all.\n\n**Improved**\n- During a workout each exercise now shows its equipment under the name\n  instead of the muscle it trains — the machine is the thing you have to walk\n  to. Exercises with no equipment set still show the muscle.\n- History and Progression were two different screens showing the same thing.\n  There is now one History sheet: your personal best and recent sessions\n  first, the chart a tap away, and it opens without leaving your workout.\n  The exercise card's second footer button is now **History**.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

@@ -6,6 +6,37 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.11.0-202608181502 -->
+## 1.11.0 — nightly — 2026-08-18
+
+Build 202608181502 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.11.0-202608181502/Pumped-nightly-1.11.0-202608181502.ipa)
+
+Looking backwards at an exercise is now one screen instead of two,
+exercises can share a name when the equipment differs, and a rolling split
+follows the workout you actually did.
+
+**New**
+- Two exercises can share a name as long as the equipment differs, so a
+  machine Chest Press and a dumbbell Chest Press can both just be called
+  "Chest Press". Whichever list they appear in, the equipment is written
+  underneath so you can tell them apart. The second one has to have its
+  equipment set — that is the thing doing the telling.
+
+**Fixed**
+- A rolling split now continues from the workout you actually did. If Upper 1
+  was next but you trained Upper 2, tomorrow follows Upper 2 instead of
+  offering Upper 2 all over again. A workout that is not part of the split no
+  longer moves it at all.
+
+**Improved**
+- During a workout each exercise now shows its equipment under the name
+  instead of the muscle it trains — the machine is the thing you have to walk
+  to. Exercises with no equipment set still show the muscle.
+- History and Progression were two different screens showing the same thing.
+  There is now one History sheet: your personal best and recent sessions
+  first, the chart a tap away, and it opens without leaving your workout.
+  The exercise card's second footer button is now **History**.
+
 <!-- nightly-1.10.1-202608181411 -->
 ## 1.10.1 — nightly — 2026-08-18
 
