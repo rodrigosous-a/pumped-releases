@@ -6,6 +6,17 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.10.1-202608181411 -->
+## 1.10.1 — nightly — 2026-08-18
+
+Build 202608181411 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.10.1-202608181411/Pumped-nightly-1.10.1-202608181411.ipa)
+
+**Fixed**
+- 1.10.0 crashed the moment the active workout screen opened — starting a
+  workout, resuming one from Home, or tapping the Live Activity all killed
+  the app. The set checkmark's new animation was the culprit; it no longer
+  takes the app down with it.
+
 <!-- nightly-1.10.0-202608181100 -->
 ## 1.10.0 — nightly — 2026-08-18
 
