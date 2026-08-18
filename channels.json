@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.9.4",
-      "buildVersion": "202608141208",
-      "tag": "nightly-1.9.4-202608141208",
-      "ipaName": "Pumped-nightly-1.9.4-202608141208.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.4-202608141208/Pumped-nightly-1.9.4-202608141208.ipa",
-      "sizeBytes": 16360332,
-      "date": "2026-08-14",
-      "notes": "**Improved**\n- Opening a workout now shows the full preview straight away — exercise count,\n  total sets, estimated time and the muscles it hits — instead of a plainer list\n  that made you tap Start once to see it and again to actually begin. Starting a\n  workout is one tap shorter, and every route in (Library, the Pump sheet, your\n  split's workout for today) lands on the same screen.\n\n**Fixed**\n- The button for logging a set showed a play arrow until you tapped it, which\n  read like it would start something. It is a checkmark now, greyed out until\n  the set is logged and green afterwards.",
+      "version": "1.9.5",
+      "buildVersion": "202608181041",
+      "tag": "nightly-1.9.5-202608181041",
+      "ipaName": "Pumped-nightly-1.9.5-202608181041.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.5-202608181041/Pumped-nightly-1.9.5-202608181041.ipa",
+      "sizeBytes": 16362269,
+      "date": "2026-08-18",
+      "notes": "**Fixed**\n- Finishing a workout could quietly lose sets: if part of the save failed\n  mid-way, the app still showed the summary as if everything had been stored.\n  A failed save now keeps the workout on your phone, tells you, and lets you\n  hit Finish again.\n- The same workout could report three different volume totals on the summary,\n  the feed and the history detail, because dropsets and rest-pause clusters\n  were counted in some places and ignored in others. Every screen now counts\n  them the same way — and the summary's working-set count no longer drops\n  backoffs, dropsets and the other non-plain set types.\n- Set-type badges in an exercise's history could render invisible when a set\n  type wasn't in the database, and a set type recoloured in Settings showed the\n  old colour on some screens. One colour source now feeds them all.\n- In the rest timer, the highlighted preset chip followed the countdown — 3:00\n  lit up for one second as the clock passed it, then went dark. The chip now\n  shows the rest length you actually picked.\n- The Pump tab flashed \"No active split\" and \"No workout templates yet\" for a\n  moment on every visit before your real workouts appeared. It now shows\n  loading placeholders until they've actually loaded.\n- The Live Activity (Dynamic Island) died the moment you swiped back from the\n  workout screen — exactly when it matters. It now survives navigation\n  anywhere in the app for the whole workout. It also stops re-sending itself\n  every second, which iOS punishes by dropping updates; the rest countdown\n  still ticks natively. The elapsed-time string is gone from it — the widget\n  can't tick it natively, and a frozen clock reads as broken.\n- Saving a workout note (during finish or on the summary screen) no longer\n  fails silently — if it doesn't stick, you're told.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

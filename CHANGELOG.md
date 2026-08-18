@@ -6,6 +6,39 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.9.5-202608181041 -->
+## 1.9.5 — nightly — 2026-08-18
+
+Build 202608181041 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.9.5-202608181041/Pumped-nightly-1.9.5-202608181041.ipa)
+
+**Fixed**
+- Finishing a workout could quietly lose sets: if part of the save failed
+  mid-way, the app still showed the summary as if everything had been stored.
+  A failed save now keeps the workout on your phone, tells you, and lets you
+  hit Finish again.
+- The same workout could report three different volume totals on the summary,
+  the feed and the history detail, because dropsets and rest-pause clusters
+  were counted in some places and ignored in others. Every screen now counts
+  them the same way — and the summary's working-set count no longer drops
+  backoffs, dropsets and the other non-plain set types.
+- Set-type badges in an exercise's history could render invisible when a set
+  type wasn't in the database, and a set type recoloured in Settings showed the
+  old colour on some screens. One colour source now feeds them all.
+- In the rest timer, the highlighted preset chip followed the countdown — 3:00
+  lit up for one second as the clock passed it, then went dark. The chip now
+  shows the rest length you actually picked.
+- The Pump tab flashed "No active split" and "No workout templates yet" for a
+  moment on every visit before your real workouts appeared. It now shows
+  loading placeholders until they've actually loaded.
+- The Live Activity (Dynamic Island) died the moment you swiped back from the
+  workout screen — exactly when it matters. It now survives navigation
+  anywhere in the app for the whole workout. It also stops re-sending itself
+  every second, which iOS punishes by dropping updates; the rest countdown
+  still ticks natively. The elapsed-time string is gone from it — the widget
+  can't tick it natively, and a frozen clock reads as broken.
+- Saving a workout note (during finish or on the summary screen) no longer
+  fails silently — if it doesn't stick, you're told.
+
 <!-- nightly-1.9.4-202608141208 -->
 ## 1.9.4 — nightly — 2026-08-14
 
