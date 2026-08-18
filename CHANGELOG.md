@@ -6,6 +6,108 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.10.0-202608181100 -->
+## 1.10.0 — nightly — 2026-08-18
+
+Build 202608181100 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.10.0-202608181100/Pumped-nightly-1.10.0-202608181100.ipa)
+
+**New**
+- Password managers finally work: sign-in offers your saved credentials,
+  sign-up suggests a strong password, and every auth field autofills the way
+  a native app should.
+
+**Improved**
+- The sign-in, sign-up and password-reset screens no longer hide their
+  buttons behind the keyboard, and the sign-up form has real field labels
+  instead of placeholders that vanish as you type.
+- The rest timer no longer covers the tab bar mid-rest — the tabs stay
+  reachable — and it sits exactly on the home indicator on every device, with
+  a translucent material instead of a flat block.
+- The dead space under "Start Workout" and the other bottom bars is gone
+  (the safe area was being counted twice).
+- The calendar and activity-summary now open as half-height sheets you can
+  drag up, like the system's own.
+- User search uses the real iOS search bar in the navigation bar, with the
+  system Cancel button; the Android-style back arrows are gone.
+- The workout ⋮ menu is a native action sheet instead of a floating box; the
+  keyboard-dismiss chevron rides the keyboard's real animation instead of
+  teleporting; swipe-to-delete in the Library runs on the modern engine.
+- Body-stat history rows now open a menu — tapping them used to lead to a
+  screen that doesn't exist, and delete hid behind an unmarked long-press.
+- Logging a set now animates: the checkmark tints and pops instead of
+  teleporting to green, and the glyph no longer shifts a pixel on every tap.
+- The weight/reps wheels finally behave like iOS pickers: the highlighted
+  value follows your finger instead of lagging until the wheel stops, and
+  every detent ticks.
+- The bottom sheets' drag handle is now real — drag down to dismiss, flick to
+  dismiss faster, let go to snap back with your hand's momentum. Sheets also
+  close on the same curve they open on, with the dim tracking the panel
+  exactly. The exercise-swap sheet no longer vanishes 40ms before it finishes
+  sliding, and the Android back button closes it.
+- The rest timer's progress bar moves smoothly instead of stepping five times
+  a second.
+- A new personal record now lands with one real bounce instead of four small
+  lurches, can be tapped away, is announced to VoiceOver — and a second PR in
+  quick succession gets its own celebration instead of silently eating the
+  first.
+- In-workout toasts fade cleanly even when several arrive back-to-back, and
+  are spoken to VoiceOver.
+- Adding, removing and reordering sets and exercises now slides neighbours
+  into place instead of snapping. The set-editing rows in workout history get
+  a real staggered fade instead of popping in one by one.
+- Buttons across the app press down with a subtle scale instead of an
+  imperceptible dim; the most-tapped chips (set types, quick reps, bar
+  presets, plates) acknowledge the touch, and the tappable plates on the
+  barbell are much easier to hit.
+- Charts animate: trend lines ease into place when you switch metric or
+  range, progress bars grow in place, and the activity rings and strain ring
+  sweep to their value.
+- All new motion respects the system Reduce Motion setting.
+
+**Improved (under the hood)**
+- Creating and editing workouts (and plans) now share one editor, so the two
+  screens can't drift apart again — and the create screen picks up the edit
+  screen's nicer inputs and row actions along the way.
+
+**Improved (accessibility)**
+- VoiceOver can now run a workout: every stepper says what it adjusts and by
+  how much, the set checkmark announces its state, sheets and menus are
+  labelled, selected tabs say they're selected, and disabled options say so
+  instead of silently doing nothing.
+- Rest completing, toasts, and personal records are spoken aloud.
+- Reduce Motion is respected everywhere, the confetti sits out entirely, and
+  loading placeholders pulse more gently.
+- Big numbers no longer clip at large text sizes, and small controls got
+  bigger touch areas.
+
+**Improved (design)**
+- Text you actually read got more readable: the dimmest caption gray was
+  below accessibility contrast on cards and has been lightened, and the
+  accent colour was darkened a touch so white text on buttons meets the
+  contrast standard too.
+- One green means "done" everywhere now (the app had five), one red means
+  "delete" (it had two), and the mid-gray text colour is the same gray on
+  every screen instead of two near-identical ones.
+- The active workout screen and the advanced set editor now use the same
+  palette, spacing and corner radii as the rest of the app instead of their
+  own — cards, pills and chips line up and match.
+- Big numbers (rest countdown, set readouts, profile counts) use fixed-width
+  digits so nothing jitters as values change, and small caption text sits at
+  a readable minimum size.
+- Labels like "REST COMPLETE" and "BAR WEIGHT" are properly letter-spaced
+  small caps instead of shouted strings.
+
+**Improved (copy)**
+- Error messages are written for people now: instead of raw database text
+  like "duplicate key value violates unique constraint", the app says what
+  went wrong and what to do next — wrong password, no connection, a name
+  that's already taken.
+- Confirmation dialogs name what they're about to do: delete buttons say
+  "Delete Workout" or "Delete Plan" rather than a bare "Delete", the
+  "Are you sure?" bodies say what will actually be lost, and the swap
+  dialog's bare Yes/No is now Save / Not Now.
+- The journal's customize search says which query had no results.
+
 <!-- nightly-1.9.5-202608181041 -->
 ## 1.9.5 — nightly — 2026-08-18
 
