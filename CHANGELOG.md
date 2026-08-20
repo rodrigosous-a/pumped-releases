@@ -6,6 +6,40 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.11.1-202608200941 -->
+## 1.11.1 — nightly — 2026-08-20
+
+Build 202608200941 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.11.1-202608200941/Pumped-nightly-1.11.1-202608200941.ipa)
+
+Buttons across the app get their shape back, sheets stop hiding against the
+screen behind them, and user search opens instead of crashing.
+
+**Fixed**
+- User search no longer crashes the app. Tapping the magnifying glass opened a
+  screen that died on the spot; it opens and searches again.
+- Buttons across the app had lost their backgrounds, their padding and their
+  centring — Log Set and Cancel during a workout, the sign-in buttons, the rows
+  and the browse button in Change Exercise, and more. Every one of them is
+  drawn properly again. Icons and labels that were stacking on top of each
+  other now sit side by side as they should.
+- The calendar button in the Home header sits inside its circle instead of
+  hanging off the edge of it.
+- Add and Edit in the journal's Customize screen no longer draw their title bar
+  on top of the first item. The bar is opaque and the list starts below it.
+
+**Improved**
+- Sheets that slide up over a screen — exercise history, the set editor, the
+  exercise pickers, Reset Password — are a shade lighter than the screen behind
+  them, so you can see where the sheet ends and the app begins. Each one now
+  shows the small handle that says it can be swiped away.
+- Changing a journal item's icon takes one tap. The circle empties when you tap
+  it and shows the old icon faintly behind, so the emoji you pick replaces it
+  instead of landing next to it, and the ring around the circle tells you it is
+  waiting for one.
+- During a workout, an exercise's "Last: 40kg × 8" now sits under its sets
+  rather than above them, next to the History button, where it reads as a
+  comparison against what you just logged.
+
 <!-- nightly-1.11.0-202608181502 -->
 ## 1.11.0 — nightly — 2026-08-18
 
