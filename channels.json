@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.11.1",
-      "buildVersion": "202608200941",
-      "tag": "nightly-1.11.1-202608200941",
-      "ipaName": "Pumped-nightly-1.11.1-202608200941.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.11.1-202608200941/Pumped-nightly-1.11.1-202608200941.ipa",
-      "sizeBytes": 16389601,
-      "date": "2026-08-20",
-      "notes": "Buttons across the app get their shape back, sheets stop hiding against the\nscreen behind them, and user search opens instead of crashing.\n\n**Fixed**\n- User search no longer crashes the app. Tapping the magnifying glass opened a\n  screen that died on the spot; it opens and searches again.\n- Buttons across the app had lost their backgrounds, their padding and their\n  centring — Log Set and Cancel during a workout, the sign-in buttons, the rows\n  and the browse button in Change Exercise, and more. Every one of them is\n  drawn properly again. Icons and labels that were stacking on top of each\n  other now sit side by side as they should.\n- The calendar button in the Home header sits inside its circle instead of\n  hanging off the edge of it.\n- Add and Edit in the journal's Customize screen no longer draw their title bar\n  on top of the first item. The bar is opaque and the list starts below it.\n\n**Improved**\n- Sheets that slide up over a screen — exercise history, the set editor, the\n  exercise pickers, Reset Password — are a shade lighter than the screen behind\n  them, so you can see where the sheet ends and the app begins. Each one now\n  shows the small handle that says it can be swiped away.\n- Changing a journal item's icon takes one tap. The circle empties when you tap\n  it and shows the old icon faintly behind, so the emoji you pick replaces it\n  instead of landing next to it, and the ring around the circle tells you it is\n  waiting for one.\n- During a workout, an exercise's \"Last: 40kg × 8\" now sits under its sets\n  rather than above them, next to the History button, where it reads as a\n  comparison against what you just logged.",
+      "version": "1.12.0",
+      "buildVersion": "202608251011",
+      "tag": "nightly-1.12.0-202608251011",
+      "ipaName": "Pumped-nightly-1.12.0-202608251011.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.0-202608251011/Pumped-nightly-1.12.0-202608251011.ipa",
+      "sizeBytes": 16391714,
+      "date": "2026-08-25",
+      "notes": "You can step out of a workout to check the feed without losing it, and a workout\nyou walked away from no longer sits there running until you notice.\n\n**New**\n- A workout that goes quiet asks whether you are still training. Fifteen minutes\n  with no sets logged and Pumped checks in; another fifteen with no answer and it\n  finishes the workout for you, ending it at your last set rather than whenever\n  you happen to open the app again. Nothing is lost — the workout lands in your\n  history with the duration you actually trained for.\n\n**Improved**\n- A button to put a workout down. Tap the chevron at the top of the workout\n  screen and you are back in the app, with the timer still running, free to look\n  at the feed or somebody else's session and pick yours back up from the banner\n  on Home.\n- Removed the `+` beside Activity history on the Training tab. It opened the\n  text importer and then threw the result away — no workout was added, which is\n  what the button looked like it was for. Importing exercises from text still\n  lives where it works: inside a workout template.\n\n**Fixed**\n- Pasting an exported workout back into the app failed on the first line. The\n  `WORKOUT:` line that export writes is now ignored on import, so a plan can go\n  out to a coach, come back edited, and go straight in.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

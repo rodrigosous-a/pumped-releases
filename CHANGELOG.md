@@ -6,6 +6,36 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.12.0-202608251011 -->
+## 1.12.0 — nightly — 2026-08-25
+
+Build 202608251011 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.0-202608251011/Pumped-nightly-1.12.0-202608251011.ipa)
+
+You can step out of a workout to check the feed without losing it, and a workout
+you walked away from no longer sits there running until you notice.
+
+**New**
+- A workout that goes quiet asks whether you are still training. Fifteen minutes
+  with no sets logged and Pumped checks in; another fifteen with no answer and it
+  finishes the workout for you, ending it at your last set rather than whenever
+  you happen to open the app again. Nothing is lost — the workout lands in your
+  history with the duration you actually trained for.
+
+**Improved**
+- A button to put a workout down. Tap the chevron at the top of the workout
+  screen and you are back in the app, with the timer still running, free to look
+  at the feed or somebody else's session and pick yours back up from the banner
+  on Home.
+- Removed the `+` beside Activity history on the Training tab. It opened the
+  text importer and then threw the result away — no workout was added, which is
+  what the button looked like it was for. Importing exercises from text still
+  lives where it works: inside a workout template.
+
+**Fixed**
+- Pasting an exported workout back into the app failed on the first line. The
+  `WORKOUT:` line that export writes is now ignored on import, so a plan can go
+  out to a coach, come back edited, and go straight in.
+
 <!-- nightly-1.11.1-202608200941 -->
 ## 1.11.1 — nightly — 2026-08-20
 
