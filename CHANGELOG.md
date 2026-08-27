@@ -6,6 +6,19 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.12.1-202608271546 -->
+## 1.12.1 — nightly — 2026-08-27
+
+Build 202608271546 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.1-202608271546/Pumped-nightly-1.12.1-202608271546.ipa)
+
+The exercise you are on is now easy to find on a long workout screen.
+
+**Improved**
+- The exercise you are currently on is outlined in the app's accent colour
+  while you train. It is the first exercise you have not finished and have not
+  skipped, so the outline moves down the list on its own as you log your last
+  set of each one, and disappears when there is nothing left to log.
+
 <!-- nightly-1.12.0-202608251011 -->
 ## 1.12.0 — nightly — 2026-08-25
 

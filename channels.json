@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.12.0",
-      "buildVersion": "202608251011",
-      "tag": "nightly-1.12.0-202608251011",
-      "ipaName": "Pumped-nightly-1.12.0-202608251011.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.0-202608251011/Pumped-nightly-1.12.0-202608251011.ipa",
-      "sizeBytes": 16391714,
-      "date": "2026-08-25",
-      "notes": "You can step out of a workout to check the feed without losing it, and a workout\nyou walked away from no longer sits there running until you notice.\n\n**New**\n- A workout that goes quiet asks whether you are still training. Fifteen minutes\n  with no sets logged and Pumped checks in; another fifteen with no answer and it\n  finishes the workout for you, ending it at your last set rather than whenever\n  you happen to open the app again. Nothing is lost — the workout lands in your\n  history with the duration you actually trained for.\n\n**Improved**\n- A button to put a workout down. Tap the chevron at the top of the workout\n  screen and you are back in the app, with the timer still running, free to look\n  at the feed or somebody else's session and pick yours back up from the banner\n  on Home.\n- Removed the `+` beside Activity history on the Training tab. It opened the\n  text importer and then threw the result away — no workout was added, which is\n  what the button looked like it was for. Importing exercises from text still\n  lives where it works: inside a workout template.\n\n**Fixed**\n- Pasting an exported workout back into the app failed on the first line. The\n  `WORKOUT:` line that export writes is now ignored on import, so a plan can go\n  out to a coach, come back edited, and go straight in.",
+      "version": "1.12.1",
+      "buildVersion": "202608271546",
+      "tag": "nightly-1.12.1-202608271546",
+      "ipaName": "Pumped-nightly-1.12.1-202608271546.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.1-202608271546/Pumped-nightly-1.12.1-202608271546.ipa",
+      "sizeBytes": 16392233,
+      "date": "2026-08-27",
+      "notes": "The exercise you are on is now easy to find on a long workout screen.\n\n**Improved**\n- The exercise you are currently on is outlined in the app's accent colour\n  while you train. It is the first exercise you have not finished and have not\n  skipped, so the outline moves down the list on its own as you log your last\n  set of each one, and disappears when there is nothing left to log.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [
