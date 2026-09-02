@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.12.1",
-          "buildVersion": "202608271546",
-          "date": "2026-08-27",
-          "localizedDescription": "The exercise you are on is now easy to find on a long workout screen.\n\n**Improved**\n- The exercise you are currently on is outlined in the app's accent colour\n  while you train. It is the first exercise you have not finished and have not\n  skipped, so the outline moves down the list on its own as you log your last\n  set of each one, and disappears when there is nothing left to log.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.12.1-202608271546/Pumped-nightly-1.12.1-202608271546.ipa",
-          "size": 16392233,
+          "version": "1.13.0",
+          "buildVersion": "202609021120",
+          "date": "2026-09-02",
+          "localizedDescription": "Two new ways to log cardio, and every cardio session can now carry your average\nheart rate.\n\n**New**\n- Indoor Bike, a new cardio type for a stationary or spin bike. Log distance,\n  average speed, resistance level, cadence and average power alongside the\n  duration — every one of them optional, so a bike that tells you nothing but\n  the clock is still worth logging.\n- An incline field on Indoor Walk, in percent, for the treadmill.\n- Average heart rate on every cardio session, from an indoor walk to an outdoor\n  run. It shows up next to the session in your history and on the calendar.\n\n**Fixed**\n- The intensity level on a Stairs session now saves. It never did: the level you\n  picked was rejected on the way to the server, silently, so it was gone the next\n  time you opened the session. Levels you set before this build were never\n  stored and cannot be recovered.\n- A Stairs session in your history shows \"Level 12\" rather than a bare \"12\".\n- Indoor Run no longer shows a bicycle next to it in the cardio list.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.13.0-202609021120/Pumped-nightly-1.13.0-202609021120.ipa",
+          "size": 16397665,
           "minOSVersion": "15.1"
         }
       ],

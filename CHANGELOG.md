@@ -6,6 +6,31 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.13.0-202609021120 -->
+## 1.13.0 — nightly — 2026-09-02
+
+Build 202609021120 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.13.0-202609021120/Pumped-nightly-1.13.0-202609021120.ipa)
+
+Two new ways to log cardio, and every cardio session can now carry your average
+heart rate.
+
+**New**
+- Indoor Bike, a new cardio type for a stationary or spin bike. Log distance,
+  average speed, resistance level, cadence and average power alongside the
+  duration — every one of them optional, so a bike that tells you nothing but
+  the clock is still worth logging.
+- An incline field on Indoor Walk, in percent, for the treadmill.
+- Average heart rate on every cardio session, from an indoor walk to an outdoor
+  run. It shows up next to the session in your history and on the calendar.
+
+**Fixed**
+- The intensity level on a Stairs session now saves. It never did: the level you
+  picked was rejected on the way to the server, silently, so it was gone the next
+  time you opened the session. Levels you set before this build were never
+  stored and cannot be recovered.
+- A Stairs session in your history shows "Level 12" rather than a bare "12".
+- Indoor Run no longer shows a bicycle next to it in the cardio list.
+
 <!-- nightly-1.12.1-202608271546 -->
 ## 1.12.1 — nightly — 2026-08-27
 
