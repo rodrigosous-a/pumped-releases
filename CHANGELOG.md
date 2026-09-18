@@ -6,6 +6,43 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.14.0-202609181623 -->
+## 1.14.0 — nightly — 2026-09-18
+
+Build 202609181623 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.14.0-202609181623/Pumped-nightly-1.14.0-202609181623.ipa)
+
+Five things asked for after 1.13.0: moving between workouts in History, exporting
+a stretch of it, a share that carries the whole workout, faster steppers, and a
+set type for planks and hangs.
+
+**New**
+- Timed sets. A new set type, "Timed", for anything measured in seconds rather
+  than reps — a plank, a dead hang, a wall sit. Pick it from the set menu and the
+  reps pill becomes a time pill. Tap it to type a time, or run the built-in
+  stopwatch while you hold and stop it when you drop. Weight is optional, for a
+  weighted plank. The time shows in your history, the post-workout summary and
+  any text export, and a timed set counts as a working set but adds nothing to
+  volume. Needs the server update in this build; until it is applied the type
+  does not appear.
+- Select and export from History. A Select button above your activity history
+  turns every workout and cardio session into a checkbox. Pick as many as you
+  like, or Select all, and Export opens the share sheet with one text document
+  covering all of them, newest first — every set, weight, rep and rest for each
+  workout, and the distance, pace and heart rate for each cardio session. Paste
+  it to a coach, a chat, or an assistant.
+- Arrows on a past workout. The date line on a workout's detail screen now has a
+  chevron on each side: left goes to the workout before it, right to the one
+  after. Back still returns to History.
+
+**Improved**
+- Sharing from the post-workout summary now sends the whole workout, in the same
+  text format as History's export, with your PRs at the end — instead of a
+  three-line headline.
+- Hold a + or − button to keep stepping. On the weight and reps sheets, the full
+  set editor and the new time sheet, a tap moves one step and a hold moves faster
+  and faster the longer you keep it down, so a hundred reps is a few seconds
+  rather than a hundred taps.
+
 <!-- nightly-1.13.0-202609021120 -->
 ## 1.13.0 — nightly — 2026-09-02
 
