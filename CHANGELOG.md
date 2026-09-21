@@ -6,6 +6,70 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.15.0-202609212003 -->
+## 1.15.0 — nightly — 2026-09-21
+
+Build 202609212003 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.15.0-202609212003/Pumped-nightly-1.15.0-202609212003.ipa)
+
+The biggest release so far, and mostly one idea: the app should have an opinion
+about your training instead of just remembering it. Turn progression on and
+each session opens with the weight the rule says comes next, and a sentence
+saying why. Around that: supersets, a muscle map, estimated 1RM, logging a
+workout you did on paper, and the screen finally staying awake between sets.
+
+**New**
+- Progression. Turn it on for a workout and each session opens with the weight
+  the rule says comes next, instead of whatever you did last time. Clear the
+  top of the rep range in every set and the weight goes up; fall short and it
+  holds while the target climbs toward the top. Tap any weight to see the
+  sentence explaining why it is that number. After three sessions stuck at the
+  same weight it offers a lighter one — offers, never applies. Off for every
+  existing workout until you switch it on, and you can turn it off for a single
+  exercise.
+- Supersets. Pair an exercise with the one next to it — when you build the
+  workout, or mid-session from the ⋯ menu — and work through them back to back
+  with a single rest at the end of each round, for as long as the harder of the
+  two asked for. The card says SUPERSET · A of 2, so a missing rest reads as
+  the plan rather than a bug. Leave the superset at any time, and a pair left
+  with one member becomes an ordinary exercise again.
+- A muscle map on the Training tab. A front-and-back body with every muscle
+  shaded by how much of your training landed on it, over the last 30 days, 3
+  months, 6 months or a year. Switch between sets and volume, tap a muscle to
+  see its total, and pick the male or female figure. Underneath it names the
+  muscles you have not trained in that window, which is the part a bar chart
+  cannot do.
+- Estimated 1RM on every exercise's progress screen: the heaviest single rep
+  your best set implies, with the set it came from and a trend beside it. It is
+  a calculation, not a record — it will not fire a PR celebration, and it is not
+  computed above twelve reps, where the formulas start disagreeing enough that
+  the number would say more about the formula than about you. The post-workout
+  summary names any exercise whose estimate is now at its all-time high.
+- Log a workout after the fact. Forgot your phone, trained on paper, or came
+  from another app? From Training, pick the day, when you started and how long
+  it ran, choose one of your workouts or go freestyle, and log it on the normal
+  workout screen. It is filed on the day it happened, not today — and it will
+  not claim a personal record against workouts you did after it.
+- Rest time per exercise. Heavy triples and curls do not want the same break,
+  so any exercise in a workout can carry its own. Set it in the Rest field when
+  you build or edit a workout; leave it empty and it uses your default, which
+  the field shows you. It travels with a workout you import from someone else.
+- Favourite exercises. Tap the star on any exercise in your library or in the
+  picker and it sorts to the top from then on — within whatever filter you have
+  applied, so a starred chest exercise is first among your chest exercises
+  rather than pinned above everything. Favourites are yours alone and are not
+  part of a workout you share.
+- The screen stays on while you are training. No more unlocking the phone
+  between sets to find your place again. It holds only for the length of the
+  workout and gives the display straight back when you finish, so it costs
+  nothing the rest of the day. Switch it off under Profile → Workout Settings →
+  Keep Screen Awake if you would rather it did not.
+
+**Fixed**
+- Warm-up sets no longer count as personal records. A warm-up of 20 kg × 20
+  could take the rep record at 20 kg, fire the celebration mid-warm-up, and then
+  hold that record against the working sets that should have claimed it. Some
+  existing rep records will drop as a result — those were never really yours.
+
 <!-- nightly-1.14.0-202609181623 -->
 ## 1.14.0 — nightly — 2026-09-18
 
