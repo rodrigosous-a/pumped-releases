@@ -6,6 +6,31 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.16.0-202609230743 -->
+## 1.16.0 — nightly — 2026-09-23
+
+Build 202609230743 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.16.0-202609230743/Pumped-nightly-1.16.0-202609230743.ipa)
+
+### Improved
+
+- Every screen now uses the iOS navigation bar: the title collapses as you
+  scroll, the bar blurs what passes under it, and swiping back works from
+  anywhere on the screen, not just the edge.
+- Cardio logging, "log a past workout", body-stat entry and the template
+  editors open as sheets you can drag down to dismiss.
+- The active workout screen no longer redraws itself every second, so long
+  sessions with many exercises scroll and respond as smoothly at minute 90 as
+  at minute 1.
+- Goals, Body stats and Splits now open as pages you can swipe back from,
+  instead of sliding up as modals.
+- A workout template's ⋯ menu (Edit, Archive, Delete) is now the standard iOS
+  action sheet.
+- The Library's "New" button moved into the top bar, freeing the bottom of the
+  list.
+- Bottom sheets and the in-workout toast are now translucent, matching the
+  rest timer.
+- The active workout's set count reads "No sets yet" before the first set.
+
 <!-- nightly-1.15.0-202609212003 -->
 ## 1.15.0 — nightly — 2026-09-21
 
