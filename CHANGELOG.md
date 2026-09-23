@@ -6,6 +6,19 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.16.1-202609230816 -->
+## 1.16.1 — nightly — 2026-09-23
+
+Build 202609230816 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.16.1-202609230816/Pumped-nightly-1.16.1-202609230816.ipa)
+
+### Fixed
+
+- The top bar showed a white band on the active workout and on other pushed
+  screens; it is black again.
+- The active workout no longer has its own big chevron button top-left. The
+  standard back button is there instead, and swiping back still keeps the
+  workout running.
+
 <!-- nightly-1.16.0-202609230743 -->
 ## 1.16.0 — nightly — 2026-09-23
 

@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.16.0",
-      "buildVersion": "202609230743",
-      "tag": "nightly-1.16.0-202609230743",
-      "ipaName": "Pumped-nightly-1.16.0-202609230743.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.16.0-202609230743/Pumped-nightly-1.16.0-202609230743.ipa",
-      "sizeBytes": 16480491,
+      "version": "1.16.1",
+      "buildVersion": "202609230816",
+      "tag": "nightly-1.16.1-202609230816",
+      "ipaName": "Pumped-nightly-1.16.1-202609230816.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.16.1-202609230816/Pumped-nightly-1.16.1-202609230816.ipa",
+      "sizeBytes": 16480577,
       "date": "2026-09-23",
-      "notes": "### Improved\n\n- Every screen now uses the iOS navigation bar: the title collapses as you\n  scroll, the bar blurs what passes under it, and swiping back works from\n  anywhere on the screen, not just the edge.\n- Cardio logging, \"log a past workout\", body-stat entry and the template\n  editors open as sheets you can drag down to dismiss.\n- The active workout screen no longer redraws itself every second, so long\n  sessions with many exercises scroll and respond as smoothly at minute 90 as\n  at minute 1.\n- Goals, Body stats and Splits now open as pages you can swipe back from,\n  instead of sliding up as modals.\n- A workout template's ⋯ menu (Edit, Archive, Delete) is now the standard iOS\n  action sheet.\n- The Library's \"New\" button moved into the top bar, freeing the bottom of the\n  list.\n- Bottom sheets and the in-workout toast are now translucent, matching the\n  rest timer.\n- The active workout's set count reads \"No sets yet\" before the first set.",
+      "notes": "### Fixed\n\n- The top bar showed a white band on the active workout and on other pushed\n  screens; it is black again.\n- The active workout no longer has its own big chevron button top-left. The\n  standard back button is there instead, and swiping back still keeps the\n  workout running.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [
