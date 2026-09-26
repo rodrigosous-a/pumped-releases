@@ -6,6 +6,312 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.17.0-202609262241 -->
+## 1.17.0 — nightly — 2026-09-26
+
+Build 202609262241 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.17.0-202609262241/Pumped-nightly-1.17.0-202609262241.ipa)
+
+The whole app moves onto one design language: native title bars and sheets on
+every screen, numbers as the centrepiece, the accent kept for what is live,
+happening now or a record, and the same cards, lists, empty states and copy
+everywhere. Along the way the app got faster to open and scroll, and picked up
+month paging in the calendar, session swiping and sharing in history, quick
+actions on the app icon, pull to refresh, and a Library that can favourite,
+duplicate and edit in place.
+
+### New
+
+- Duplicate a template from its long-press menu in the Library. The copy is
+  named "… copy" and keeps its exercises, alternatives, supersets, rest times
+  and progression. Notes on its exercises are not copied.
+- Tap a day on Training's activity grid to open the calendar on that day.
+- Swipe between months in the calendar, up to a year either way.
+- A muscle figure now appears faintly behind Training's title and above the
+  empty exercise screens. On the workout summary and in history it sits
+  behind the big number, with the session's main muscles lit.
+- Swipe left or right on a finished session to open the next or previous
+  one. On someone else's session, the swipe stays in their history.
+- Share a session's summary as an image: the headline number, durations,
+  strain, totals and records. The full text version is under Share as text
+  in the ••• menu.
+- Press and hold the app icon to start an empty workout (or resume the
+  session in progress), log body stats, open the Journal or find people.
+- Date a body stats entry, for measurements taken on another day.
+- Editing a weekly split, switch training days on and off from a strip of
+  weekdays, then give every training day the same template in one go with
+  Apply to all training days.
+
+### Improved
+
+- A new look for the whole app: the greys are cooler and consistent from
+  screen to screen, cards and sheets have softer, matching corners, and every
+  sheet has the same rounded top.
+- Numbers now use a rounded typeface with even-width digits: the workout
+  clock, the rest countdown, weights and reps in the set editor, and the
+  totals on the workout summary.
+- Every icon in the app is now a native iOS symbol, at three consistent
+  sizes.
+- Set types have a new, easier-to-tell-apart set of colours, and working sets
+  no longer wear the accent colour.
+- The red accent now only marks what is live or a record: the running rest
+  timer, the set you are on, personal records, and the main button on a
+  screen. Switches are green, loading spinners are grey.
+- Cards and lists have a quieter, more consistent look: no outlines, grouped
+  settings rows like the rest of iOS, and the same margins on every tab.
+- Empty screens and loading failures say plainly what is going on, with one
+  button that gets you back to training.
+- Library, Pump, the Training charts and the journal use native segmented
+  controls, and the timeframe for each Training chart sits at the top of its
+  card.
+- Swipe left on a history entry, a journal item, a set during a workout, a
+  body-stats entry or an exercise to reach its action.
+- Drag exercises by their handle to reorder them in the template editor and
+  during a workout. Reordering set types saves straight away.
+- Buttons and rows respond to a press the same way everywhere.
+- Loading placeholders pulse together, and a template, your profile and the
+  Training charts show their shape while they load.
+- Home, Training and the calendar open instantly when you come back to them.
+- Home keeps loading older activity as you scroll, instead of stopping after
+  the most recent.
+- Training's history loads 50 entries at a time and fetches older ones as you
+  scroll, and the calendar loads one month at a time, instead of everything
+  at once.
+- If older activity fails to load on Home or Training, the foot of the list
+  says "Couldn't load older activity" with a Try again button.
+- Profile totals load without downloading your whole history.
+- Profile pictures are cached and fade in.
+- The Library keeps your search and filters on each tab when you switch
+  between Exercises, Templates and Splits.
+- The active workout opens faster, and the exercise picker opens instantly,
+  even with a weak signal once it has loaded.
+- Pump stays usable while a workout is running. The workout sits pinned at
+  the top with Resume and Discard, and everything below it still works.
+- The workout in progress on Home shows how long it has been running and how
+  many sets you have logged.
+- Pump has one Empty workout button. On iPhone it asks for a name before it
+  starts.
+- Clearing a logged set happens straight away, with Undo, instead of asking
+  first.
+- The workout summary leads with one big number: the heaviest set of a new
+  weight record, otherwise your total volume. Records are listed on the page
+  rather than in a pop-up, and history shows a finished session the same way.
+- The summary saves your note by itself, and Update template moves into the
+  summary's menu. Deleting a session is done from its history page.
+- A template's preview estimates its time from your last five sessions of
+  it, and its alternatives open in place.
+- Long-press a history entry, a template, an exercise or a set for its
+  actions: share or delete an entry; start, edit, duplicate, archive or
+  delete a template; edit or delete one of your exercises; edit, note, clear,
+  skip or remove a set.
+- History and a split each keep their actions in one menu button. The
+  summary keeps Share on its own, with its other actions in a menu.
+- Forgot password, setting a goal, importing someone's template and choosing
+  a template for a split open as sheets, and every sheet during a workout
+  slides up and away the same way.
+- Tapping a day on a profile's activity grid opens that session.
+- Cardio fills in speed, distance and pace from each other as you type,
+  flags a value that cannot be right under its field, including one worked
+  out from another field, and opens the session once it is saved.
+- Haptic feedback when you answer a journal item, complete a journal day,
+  step a daily goal or switch a segmented control, and an error buzz with
+  every message that says something failed.
+- The exercise card's footer opens its notes, and choosing an alternative
+  from Browse all asks whether to save it once the list has closed.
+- Star exercises as favourites right from the Library list.
+- Swipe an exercise in the Library to edit it, as well as to delete it.
+- Exercise cards in the Library and the exercise picker show up to four
+  muscles, then "+N" for the rest.
+- Home's empty timeline offers to start a workout, with a link to find
+  people.
+- Timeline cards no longer say "finished a workout" on every row; the type
+  shown on the card says what was done.
+- Today's workout and your weekly numbers are one card on Home, and it opens
+  Training. Once you have trained, it names the workout you finished. Home no
+  longer starts today's workout; start it from Pump.
+- A session looks the same in Training's history as on Home. Cardio's
+  average heart rate and a workout's total set count are on the session's
+  own page.
+- Journal values are now the button: tap the amount to change it. An
+  unanswered item shows a quieter placeholder with its unit.
+- Skipped journal items say Skipped instead of a dash.
+- Customize journal is now Edit journal, with the standard search bar, and
+  the section filter scrolls with the list.
+- "Log a past session" is now the + beside Select in Activity history.
+- Selecting a day in the calendar brings its details into view.
+- The calendar's filters are two rows, one for the kind of activity and one
+  for muscle groups. Cardio is greyed out while a muscle group is chosen.
+- Training's activity grid shows a loading pulse instead of an empty year.
+- The muscle map's "Tap a muscle" hint goes away once you have tapped one.
+- Achievement sections have icons instead of emoji. The rest notification
+  reads "Rest complete" with "Time for your next set.", and the Live
+  Activity's resting line has no emoji.
+- The Library's tabs are Exercises, Templates and Splits. Templates are
+  called templates in the Library's lists and on Pump, and nothing calls a
+  split a plan any more.
+- When something fails, the alert says what failed (for example "Couldn't
+  delete the set") instead of a bare "Error".
+- Titles, buttons and labels are in sentence case with British spelling
+  throughout, and the app no longer uses exclamation marks. New personal
+  records read "Weight PR: 80kg"; workouts saved before keep their old
+  label.
+- Mistakes in a form now appear in red under the field that needs fixing,
+  and VoiceOver reads them, instead of in an alert: sign-in, sign-up and
+  password reset all work this way.
+- Adding cardio and adding body stats have Previous, Next and Done above the
+  keyboard, so you can move between fields without closing it.
+- In the template, split and journal item forms, the return key moves on to
+  the next field.
+- Log a past session picks its start time with the system time picker
+  instead of a typed time.
+- Adding cardio picks the start date and time with the system picker, and
+  any past date works, not just the last 30 days.
+- Sign-in opens with the app icon above the name, and the screen eases in
+  when the app opens.
+- After you create an account, sign-in already has your email filled in.
+- Set types is one list. Each type has a switch to show it in sessions,
+  which takes effect at once; if the change doesn't save, the switch goes
+  back and says so.
+- Profile shows your lifetime workouts, sets and volume as large figures in
+  one panel. Big totals shorten (12.3k, 1.3M) instead of running out of
+  room.
+- A new profile photo appears at once, with a spinner until it has
+  uploaded.
+- Followers and Following are rows under Privacy and social. The Weight
+  unit row is gone: Pumped only uses kg, so it had nothing to change.
+- Follow and Unfollow change on the tap, and the follower count moves with
+  them. If it doesn't go through, both go back and Pumped tells you why.
+- Followers and following lists show the most recent follow first and open
+  instantly when you go back to one you've seen. In someone else's list,
+  your own row says You and opens your profile.
+- On someone's profile, the title no longer jumps from Profile to their
+  name, their counts use large figures, and each public template says
+  Import.
+- Goals: each section loads on its own, the section headers stay in view as
+  you scroll, Add is always there, and your weekly goals are one list whose
+  bars fill in.
+- Today's steps moved off Goals: daily targets live with the activity rings,
+  one tap away under Daily goals.
+- Goals, your streak and achievements show straight away when you come back
+  to them.
+- Setting a weekly goal uses − and + buttons instead of a slider, so you can
+  land on exactly the number you want. Hold a button to go faster.
+- Achievements: each category is one list, and the progress bar fills in.
+- Activity: daily goals change the moment you tap, rings included, and
+  holding − or + goes faster. The change saves once you stop, even if you
+  leave the screen straight away.
+- Activity opens faster: the 30-day strip draws its rings at once, with a
+  placeholder while it loads. A new account sees a line explaining how the
+  rings fill.
+- Activity summary has a Done button, shows placeholders while it loads
+  instead of a flat zero line, and its totals use the app's number face.
+- On someone's profile, the activity grid shades each day against their
+  usual session, so one big day no longer lightens the rest. It always ends
+  with this week, and VoiceOver reads each day.
+- Body stats shows Current and Trends in one screen. Trends is a line chart
+  for any measurement, from 1 month to all time, and the history is grouped
+  by month.
+- Adding body stats shows the last value you logged in each field.
+- An exercise's chart is now a line with dated axes, with sessions, average
+  and best under it in large figures.
+- An exercise's history shows its name, muscle and equipment in the title
+  bar, and the shape of the page while it loads instead of a spinner.
+  Opened from Training, it shows its chart straight away. The heaviest-set
+  card is labelled Weight PR.
+- Splits in the Library say how many days they train, such as "Weekly · 3
+  of 7 days training".
+- Tap a split in Training splits to make it the active one: the tick moves
+  at once. Each split's schedule, Edit, Archive and Delete, and Deactivate
+  for the active one, are in the ••• button on its row, and archived splits
+  have their own view, opened from the top bar.
+- A split's schedule marks today and shows all seven days of the week. Its
+  screen shows its description and how many days it trains, and its menu
+  can archive it.
+- Choosing a template for a split day shows which one the day already has.
+- Deleting a split names it and says your templates and sessions stay.
+- Tapping the session on your Lock Screen or in the Dynamic Island opens
+  it. If Pumped wasn't running, a Home button at the top left takes you on
+  from there.
+- Pull down to refresh the Library, your splits and a split, a template, a
+  finished session, Edit journal and a journal item, achievements,
+  Activity, body stats, follower lists and another person's profile. A
+  refresh keeps what is on screen.
+- People search keeps showing results while you type instead of flashing
+  placeholders.
+- A workout you have done is called a session in alerts, history and the
+  Live Activity: Finish session, Discard session, "Delete this session?",
+  Log a past session, Session in progress. Profile counts still say
+  Workouts. Starting a workout, the empty workout and today's workout keep
+  their names, and a template's menu is Template options.
+
+### Fixed
+
+- The Training tab crashed on open.
+- Tapping a planned workout in the calendar opens it instead of an empty
+  screen.
+- Editing a goal could open with another goal's values.
+- Starting a workout from Pump's split or All templates list did not move a
+  rolling split on; it now does whenever that workout is in the split.
+- A session that fails to save now offers Try again, with your sets kept,
+  instead of an error box.
+- Sign-in no longer shows Apple and Google buttons that did nothing.
+- Unfollowing someone from their profile now takes them off the Following
+  list you opened them from when you go back.
+- An expired or already-used password reset link now says so, instead of
+  showing the form and failing with a vague error.
+- After resetting your password you go straight into the app, instead of
+  being told to sign in when you already were.
+- Asking for reset links too quickly says to wait a minute.
+- Set types no longer says there are eight built-in types. There are nine.
+- Reordering set types right after hiding one could bring the hidden type
+  back if the reorder failed to save.
+- A follower list that fails to load says so and offers Try again, instead
+  of saying nobody follows.
+- The follower count on someone's profile no longer changes when a follow
+  fails.
+- A profile that is private or no longer exists says Profile not available
+  instead of asking you to check your connection.
+- A template with one exercise says 1 exercise.
+- Another person's profile no longer labels their activity grid "Your
+  activity".
+- The activity grid no longer shows days after today, or before the
+  account existed, as missed days, and skipped sets no longer count towards
+  a day's shade.
+- Goals no longer offers to set goals you already have when it can't load
+  them; it says so and lets you try again.
+- A new account's Goals screen says No achievements yet instead of showing
+  an empty section.
+- Daily goals stay within sensible limits (steps 1,000 to 40,000, minutes 5
+  to 240).
+- Activity no longer says you have nothing in the last 30 days when it
+  couldn't load.
+- A period with the same total as the one before no longer shows a green
+  up-arrow on the activity summary.
+- Body stats fields accept decimals again, including with a comma.
+- A measurement's change is against the last time you measured it, instead
+  of showing its whole value as the change.
+- Your latest weight and other measurements stay visible after an entry
+  that recorded only some of them, such as girths alone.
+- The session summary's calorie estimate uses your latest weight even when
+  your newest body stats entry had none.
+- Coming back to Body stats no longer blanks the screen while it reloads.
+- A change that shows as "No change" is no longer coloured red or green.
+- Archiving the active split from its edit screen now also stops it being
+  your active split, so nothing is scheduled from a split you've hidden.
+- A weekly split can no longer be saved with a training day that has no
+  template. You're asked to choose one or make it a rest day.
+- The splits list and a split's screen show your changes as soon as you
+  come back to them, and turning a split on or off no longer blanks the
+  list.
+- If activating a split fails, you're told, instead of the tick silently
+  going back.
+- On someone else's session, the previous and next arrows stay in their
+  history instead of jumping to yours.
+- Editing a set in a finished session no longer flashes the screen blank and
+  scrolls you back to the top.
+- People search could show results for something you had already deleted.
+- Adding an exercise to a template no longer says there are no exercises
+  while your library is still loading.
+
 <!-- nightly-1.16.1-202609230816 -->
 ## 1.16.1 — nightly — 2026-09-23
 
