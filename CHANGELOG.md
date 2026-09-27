@@ -6,6 +6,19 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.18.1-202609271343 -->
+## 1.18.1 — nightly — 2026-09-27
+
+Build 202609271343 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.1-202609271343/Pumped-nightly-1.18.1-202609271343.ipa)
+
+### Improved
+
+- The muscle figure is the same body everywhere. The muscle map no longer has
+  a Male / Female switch, and the figure on templates, the summary and History
+  always matches it.
+- The muscle map, Strength by muscle group and the activity summary can show
+  the last 7 days, alongside 30 days, 3, 6 and 12 months.
+
 <!-- nightly-1.18.0-202609271147 -->
 ## 1.18.0 — nightly — 2026-09-27
 
