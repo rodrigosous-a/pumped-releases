@@ -6,6 +6,62 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.18.0-202609271147 -->
+## 1.18.0 — nightly — 2026-09-27
+
+Build 202609271147 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.0-202609271147/Pumped-nightly-1.18.0-202609271147.ipa)
+
+Fixes from a first week with 1.17: dark title bars everywhere, a session screen
+that stays put, every PR you set on the summary, and smoother scrolling. Plus
+the muscles a template works, alternatives that put the same muscles first, and
+History on every exercise in a session.
+
+### New
+
+- A template shows the muscles it works on the muscle figure, front and back:
+  the main muscles bright, the ones they assist fainter. It sits under Muscles
+  worked on the template's page (the heading that used to say Muscle groups),
+  and appears while you build or edit a template as soon as it has an
+  exercise.
+
+### Improved
+
+- Each exercise in a session now ends with History and Add set. History opens
+  with your last session of that exercise, set by set, above its records and
+  past sessions. The "Last" line under the sets is gone.
+- Notes on an exercise are under its ••• menu, as Add note or Edit note. A
+  note you have written still shows on the card, and tapping it edits it.
+- Tapping the tick on a logged set takes the tick off and keeps its weight and
+  reps (or its hold), so one more tap logs it again. Clear logged values in the
+  set's menu still empties it. Un-ticking the set you logged last also stops
+  its rest timer.
+- When you add an alternative to an exercise in a template, or browse for a
+  swap during a session, exercises that work the same muscles come first under
+  Works the same muscles, each marked Same primary muscle or Shares a muscle.
+  Everything else follows under All exercises, and favourites still lead
+  within each group.
+- Swipe actions on a row are all the same width.
+
+### Fixed
+
+- Title bars are dark everywhere again: no white bar while a screen loads, on
+  Goals and the other secondary screens, on sheets, or during a session.
+- Swiping right no longer takes you out of a session. Leave with the back
+  button, or Home when there is nothing to go back to.
+- The summary lists every PR from the session, even if you left the session
+  screen or the app restarted along the way. Each exercise shows its best
+  weight, volume and rep record from the session once, and logging the same
+  record twice celebrates it once.
+- Scrolling should feel smoother in Home, Training, the Library and the
+  Journal. A card no longer shrinks under your thumb when a scroll starts on
+  it, and long lists do less work as they load more.
+- Browsing for a swap no longer lists the exercise you are swapping out. After
+  a swap, the original stays in the list so you can swap back.
+- The set editor's Last line reads the way History does: "80 kg" for a set
+  with no reps rather than "80kg × 0", and a timed set shows its hold.
+- Last-session figures, and the values filled in from them, only ever come
+  from your own sessions.
+
 <!-- nightly-1.17.0-202609262241 -->
 ## 1.17.0 — nightly — 2026-09-26
 
