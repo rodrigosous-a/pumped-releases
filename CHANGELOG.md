@@ -6,6 +6,45 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.19.0-202609281543 -->
+## 1.19.0 — nightly — 2026-09-28
+
+Build 202609281543 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.19.0-202609281543/Pumped-nightly-1.19.0-202609281543.ipa)
+
+Logging a set is quicker: weight and reps sit in one sheet, the last session
+is on every exercise card, and the workout screen tells you where you are.
+
+### New
+
+- During a workout, an exercise you have done before shows what you did last
+  time in a pill under its name, such as "4 days ago  80 kg × 8, 8, 7". Tap it
+  to open that exercise's History. An exercise you are doing for the first
+  time shows no pill.
+- The rest you took between two exercises now shows between their cards, from
+  the last set of one to the first set of the next.
+- When you scroll away from the exercise you are on, a button with its name
+  appears at the bottom of the screen. Tap it to jump back.
+
+### Improved
+
+- Weight and reps for a set are now one sheet with a tab for each, so you can
+  change both without closing it. A timed set gets Weight and Time. One button
+  sets both.
+- Exercises in a workout and in the template editor now move with up and down
+  arrows. The drag handle, which lagged and could drop an exercise in the
+  wrong place, is gone.
+- Adding an exercise mid-workout asks where it should go: up next, after the
+  exercise you were just doing, or at the end. Before your first logged set
+  it goes straight to the end.
+
+### Fixed
+
+- The back button at the top of a workout works again. With nothing to go back
+  to, it takes you Home.
+- On Home, tapping today's workout opens it ready to start, the same as on
+  Pump, instead of taking you to Training. Once it's done, tapping it opens that
+  session.
+
 <!-- nightly-1.18.2-202609281515 -->
 ## 1.18.2 — nightly — 2026-09-28
 

@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.18.2",
-          "buildVersion": "202609281515",
+          "version": "1.19.0",
+          "buildVersion": "202609281543",
           "date": "2026-09-28",
-          "localizedDescription": "A session whose template you edited mid-workout saves again.\n\n### Fixed\n\n- Finishing a session no longer fails when its template was edited or deleted\n  while you were training. The sets save; the session just stops pointing at\n  the old version of the template.\n- A session that won't save no longer tells you to check your connection when\n  the connection is fine. It only says that when the network is the problem.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.2-202609281515/Pumped-nightly-1.18.2-202609281515.ipa",
-          "size": 15033792,
+          "localizedDescription": "Logging a set is quicker: weight and reps sit in one sheet, the last session\nis on every exercise card, and the workout screen tells you where you are.\n\n### New\n\n- During a workout, an exercise you have done before shows what you did last\n  time in a pill under its name, such as \"4 days ago  80 kg × 8, 8, 7\". Tap it\n  to open that exercise's History. An exercise you are doing for the first\n  time shows no pill.\n- The rest you took between two exercises now shows between their cards, from\n  the last set of one to the first set of the next.\n- When you scroll away from the exercise you are on, a button with its name\n  appears at the bottom of the screen. Tap it to jump back.\n\n### Improved\n\n- Weight and reps for a set are now one sheet with a tab for each, so you can\n  change both without closing it. A timed set gets Weight and Time. One button\n  sets both.\n- Exercises in a workout and in the template editor now move with up and down\n  arrows. The drag handle, which lagged and could drop an exercise in the\n  wrong place, is gone.\n- Adding an exercise mid-workout asks where it should go: up next, after the\n  exercise you were just doing, or at the end. Before your first logged set\n  it goes straight to the end.\n\n### Fixed\n\n- The back button at the top of a workout works again. With nothing to go back\n  to, it takes you Home.\n- On Home, tapping today's workout opens it ready to start, the same as on\n  Pump, instead of taking you to Training. Once it's done, tapping it opens that\n  session.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.19.0-202609281543/Pumped-nightly-1.19.0-202609281543.ipa",
+          "size": 15034730,
           "minOSVersion": "15.1"
         }
       ],
