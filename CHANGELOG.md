@@ -6,6 +6,21 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.18.2-202609281515 -->
+## 1.18.2 — nightly — 2026-09-28
+
+Build 202609281515 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.2-202609281515/Pumped-nightly-1.18.2-202609281515.ipa)
+
+A session whose template you edited mid-workout saves again.
+
+### Fixed
+
+- Finishing a session no longer fails when its template was edited or deleted
+  while you were training. The sets save; the session just stops pointing at
+  the old version of the template.
+- A session that won't save no longer tells you to check your connection when
+  the connection is fine. It only says that when the network is the problem.
+
 <!-- nightly-1.18.1-202609271343 -->
 ## 1.18.1 — nightly — 2026-09-27
 

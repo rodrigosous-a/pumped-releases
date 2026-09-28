@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.18.1",
-          "buildVersion": "202609271343",
-          "date": "2026-09-27",
-          "localizedDescription": "### Improved\n\n- The muscle figure is the same body everywhere. The muscle map no longer has\n  a Male / Female switch, and the figure on templates, the summary and History\n  always matches it.\n- The muscle map, Strength by muscle group and the activity summary can show\n  the last 7 days, alongside 30 days, 3, 6 and 12 months.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.1-202609271343/Pumped-nightly-1.18.1-202609271343.ipa",
-          "size": 15033404,
+          "version": "1.18.2",
+          "buildVersion": "202609281515",
+          "date": "2026-09-28",
+          "localizedDescription": "A session whose template you edited mid-workout saves again.\n\n### Fixed\n\n- Finishing a session no longer fails when its template was edited or deleted\n  while you were training. The sets save; the session just stops pointing at\n  the old version of the template.\n- A session that won't save no longer tells you to check your connection when\n  the connection is fine. It only says that when the network is the problem.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.18.2-202609281515/Pumped-nightly-1.18.2-202609281515.ipa",
+          "size": 15033792,
           "minOSVersion": "15.1"
         }
       ],
