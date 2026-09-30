@@ -6,6 +6,30 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.20.0-202609301503 -->
+## 1.20.0 — nightly — 2026-09-30
+
+Build 202609301503 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.20.0-202609301503/Pumped-nightly-1.20.0-202609301503.ipa)
+
+A new look: neutral greys in place of black and blue-tinted greys, tighter
+corners, and rounded headings.
+
+### Improved
+
+- The app's background is now a soft dark grey instead of pure black, and
+  cards, fills and dividers are neutral greys with no blue tint. Secondary
+  text is a little lighter, so it reads more easily.
+- Corners are tighter: cards and buttons are slightly less rounded, and chips
+  and input fields are nearly square.
+- The search fields and the Exercises / Templates / Splits switch now use the
+  same greys as the rest of the app.
+- Working sets have their own colour, a muted navy, wherever set types are
+  shown in colour.
+- The five template colours are refreshed and a little richer, and the colour
+  picker shows exactly the colour the feed uses.
+- Headings use SF Rounded: screen titles, sheet titles, profile names, the
+  session name and today's workout. Body text stays in SF Pro.
+
 <!-- nightly-1.19.1-202609301255 -->
 ## 1.19.1 — nightly — 2026-09-30
 
