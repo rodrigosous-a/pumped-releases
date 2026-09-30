@@ -6,6 +6,71 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.21.0-202609301926 -->
+## 1.21.0 — nightly — 2026-09-30
+
+Build 202609301926 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.21.0-202609301926/Pumped-nightly-1.21.0-202609301926.ipa)
+
+A redesign. A + beside the tab bar starts anything in one tap, Home opens
+on what to do today, Training becomes a short overview, and every editor now
+works the same way.
+
+### New
+
+- The Pump tab is now a + beside the tab bar. It opens a menu with your
+  split's next workout ready to start, and four other ways in: Custom, Split
+  workout, Cardio session and All templates. While a session is running, the
+  menu offers to resume it instead.
+- Split workout lists every day of your split, so you can train any of them
+  today. The one that's due is marked.
+- Cardio session opens a grid of the six cardio types.
+- All templates is searchable and marks the templates in your split.
+
+- Home is redesigned. It opens on today: your split's next workout, ready to
+  start in one tap (or the session in progress, today's finished workout and
+  what's next, or a rest day). Below it, this week as a row of days with your
+  weekly goal, then today's journal at a glance, then activity.
+- Activity cards lead with the workout's name and show time, volume and sets,
+  plus the first exercises you trained.
+
+- Training is redesigned as an overview. One timeframe (4 weeks, 3 months or
+  12 months) drives the whole screen: a chart of volume, time or workouts
+  with the change against the period before, then workouts, average session,
+  records and your week streak. Below, compact cards for the muscles you've
+  trained, your top lifts, 13 weeks of consistency, and your latest sessions.
+  Each opens its full view, and your history now has its own screen under
+  "See all".
+
+- Creating and editing templates, exercises, splits and cardio is
+  redesigned around one pattern. The name comes first; details are rows you
+  tap; each item in a list has a single ⋯ menu with everything you can do to
+  it; rarer actions like archive, export and delete sit in the ⋯ at the top.
+- Add several exercises to a template at once: tick them, then Add. New
+  exercises can be created without leaving the list.
+- An exercise card in a template shows its sets, reps and rest as chips. Tap
+  them to change everything for that exercise in one place. Supersets are
+  joined by a coloured line.
+- Logging and editing cardio use the same form, and the type can be changed
+  when editing.
+- Split days are one list you tap to pick a template or a rest day. Days in a
+  rolling split can now be reordered.
+
+### Improved
+
+- Every editor asks before throwing away unsaved changes.
+- Saving or cancelling an edit returns you to where you started, instead of
+  the Library or Home.
+- Empty workout is now called Custom workout.
+- "Start a workout" buttons across the app open the new menu.
+- Buttons and list row titles now use SF Rounded too, to match the headings.
+  Body text stays in SF Pro.
+
+### Fixed
+
+- Editing a cardio session more than 30 days old no longer moves it to today.
+- Changing only a template's progression setting now counts as an unsaved
+  change.
+
 <!-- nightly-1.20.0-202609301503 -->
 ## 1.20.0 — nightly — 2026-09-30
 
