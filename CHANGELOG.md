@@ -6,6 +6,45 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.19.1-202609301255 -->
+## 1.19.1 — nightly — 2026-09-30
+
+Build 202609301255 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.19.1-202609301255/Pumped-nightly-1.19.1-202609301255.ipa)
+
+Fixes for the live workout and for past sessions: cardio can be logged again,
+adding an exercise and opening a session no longer freeze, and the exercise
+card is simpler.
+
+### Fixed
+
+- Add cardio opened as an empty sheet, so a cardio session couldn't be logged.
+  The form is back. The same fault pushed the content of other sheets down
+  the screen: the calendar, adding a body measurement, setting a goal,
+  logging a past workout, and the split and template editors.
+- Adding an exercise mid-workout, after logging a set, could flash the "Where
+  should it go?" menu and then leave the screen unresponsive. The menu now
+  stays until you choose, and the workout carries on.
+- Skipping a set no longer leaves its exercise marked as the one you're on.
+  The highlighted card, the jump button and the Live Activity move on to the
+  next exercise, and the Live Activity's set count leaves skipped sets out.
+- Discarding a workout now ends its rest timer too, instead of leaving it on
+  screen.
+- Opening a past session could get stuck on the loading placeholder and stop
+  responding. It now opens every time.
+- On a past session, the total volume no longer runs into the body figure
+  beside it. A large number shrinks to fit.
+
+### Improved
+
+- Each exercise card during a workout is simpler. What you did last time is a
+  full-width button under the name, such as "3 days ago  80 kg × 8, 8, 7",
+  and tapping it opens History. An exercise you've never done says "No
+  history". History and Add set have moved from the bottom of the card into
+  its ••• menu.
+- When a rest runs out, the timer keeps going and counts the time over it,
+  such as "−0:15", until you tap Done or log your next set. The Live Activity
+  still stops at 0:00.
+
 <!-- nightly-1.19.0-202609281543 -->
 ## 1.19.0 — nightly — 2026-09-28
 
