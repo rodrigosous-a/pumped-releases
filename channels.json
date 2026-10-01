@@ -67,14 +67,14 @@
   ],
   "nightly": [
     {
-      "version": "1.23.0",
-      "buildVersion": "202610010938",
-      "tag": "nightly-1.23.0-202610010938",
-      "ipaName": "Pumped-nightly-1.23.0-202610010938.ipa",
-      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.23.0-202610010938/Pumped-nightly-1.23.0-202610010938.ipa",
-      "sizeBytes": 15273013,
+      "version": "1.23.1",
+      "buildVersion": "202610011023",
+      "tag": "nightly-1.23.1-202610011023",
+      "ipaName": "Pumped-nightly-1.23.1-202610011023.ipa",
+      "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.23.1-202610011023/Pumped-nightly-1.23.1-202610011023.ipa",
+      "sizeBytes": 15274698,
       "date": "2026-10-01",
-      "notes": "### New\n\n- Share a session as a summary card, a full image of every set, or a text message, with a preview of exactly what will be sent. Open it from the share button after a workout or from a session's ⋯ menu.\n\n### Improved\n\n- Shared text now includes every set's weight and reps, your PRs, and a \"Tracked with Pumped\" sign-off.\n- The workout Live Activity shows the Pumped logo.\n\n### Fixed\n\n- Rows in a finished session, the workout summary, achievements, splits and the set editor no longer have a box drawn around them; only the divider between rows shows.\n- The confetti at the end of a workout falls over the summary instead of behind it.\n- Opening a past cardio session shows what you did (time, distance, pace and the rest) instead of jumping straight into editing it; Edit is at the top.\n- A session opened from the calendar's day panel now comes up on top of the calendar, and its back button works.",
+      "notes": "### Improved\n\n- On Home, the date sits on the same line as Today, at the right.\n- Someone else's session says whose it is, with their photo and name above the title, and opens their profile. The edit, delete and share options only show on your own sessions.\n- Other people's profiles show their average workouts a week since they joined.",
       "minOSVersion": "15.1",
       "appPermissions": {
         "entitlements": [

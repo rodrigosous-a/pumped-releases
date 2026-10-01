@@ -6,6 +6,17 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.23.1-202610011023 -->
+## 1.23.1 — nightly — 2026-10-01
+
+Build 202610011023 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.23.1-202610011023/Pumped-nightly-1.23.1-202610011023.ipa)
+
+### Improved
+
+- On Home, the date sits on the same line as Today, at the right.
+- Someone else's session says whose it is, with their photo and name above the title, and opens their profile. The edit, delete and share options only show on your own sessions.
+- Other people's profiles show their average workouts a week since they joined.
+
 <!-- nightly-1.23.0-202610010938 -->
 ## 1.23.0 — nightly — 2026-10-01
 
