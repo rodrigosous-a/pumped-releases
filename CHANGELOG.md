@@ -6,6 +6,27 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.23.0-202610010938 -->
+## 1.23.0 — nightly — 2026-10-01
+
+Build 202610010938 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.23.0-202610010938/Pumped-nightly-1.23.0-202610010938.ipa)
+
+### New
+
+- Share a session as a summary card, a full image of every set, or a text message, with a preview of exactly what will be sent. Open it from the share button after a workout or from a session's ⋯ menu.
+
+### Improved
+
+- Shared text now includes every set's weight and reps, your PRs, and a "Tracked with Pumped" sign-off.
+- The workout Live Activity shows the Pumped logo.
+
+### Fixed
+
+- Rows in a finished session, the workout summary, achievements, splits and the set editor no longer have a box drawn around them; only the divider between rows shows.
+- The confetti at the end of a workout falls over the summary instead of behind it.
+- Opening a past cardio session shows what you did (time, distance, pace and the rest) instead of jumping straight into editing it; Edit is at the top.
+- A session opened from the calendar's day panel now comes up on top of the calendar, and its back button works.
+
 <!-- nightly-1.22.1-202610010842 -->
 ## 1.22.1 — nightly — 2026-10-01
 

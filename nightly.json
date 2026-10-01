@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.22.1",
-          "buildVersion": "202610010842",
+          "version": "1.23.0",
+          "buildVersion": "202610010938",
           "date": "2026-10-01",
-          "localizedDescription": "### Improved\n\n- The workout Live Activity is redesigned. The lock screen shows the exercise, your set and its target, a bar of every set in the session and what's next; while you rest, a big countdown with a draining ring and what's up next.\n- The Dynamic Island shows sets done and the session clock while you lift, and the rest countdown while you rest.\n- The tab bar now reads Home, Training, Library, Journal.\n- Titles stay readable when you scroll: the content passing under the top bar is softly blurred instead of showing through.\n- The segmented controls (Training's timeframe, the Library's sections and others) match the rest of the app, and the selected option is easier to read.\n- Save, Done and other main actions at the top of a screen are white, so they no longer look like Cancel.\n- The thin line under the top bar is gone.\n\n### Fixed\n\n- The calendar opened from your profile no longer flickers a grey band over its content.",
-          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.22.1-202610010842/Pumped-nightly-1.22.1-202610010842.ipa",
-          "size": 15254279,
+          "localizedDescription": "### New\n\n- Share a session as a summary card, a full image of every set, or a text message, with a preview of exactly what will be sent. Open it from the share button after a workout or from a session's ⋯ menu.\n\n### Improved\n\n- Shared text now includes every set's weight and reps, your PRs, and a \"Tracked with Pumped\" sign-off.\n- The workout Live Activity shows the Pumped logo.\n\n### Fixed\n\n- Rows in a finished session, the workout summary, achievements, splits and the set editor no longer have a box drawn around them; only the divider between rows shows.\n- The confetti at the end of a workout falls over the summary instead of behind it.\n- Opening a past cardio session shows what you did (time, distance, pace and the rest) instead of jumping straight into editing it; Edit is at the top.\n- A session opened from the calendar's day panel now comes up on top of the calendar, and its back button works.",
+          "downloadURL": "https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.23.0-202610010938/Pumped-nightly-1.23.0-202610010938.ipa",
+          "size": 15273013,
           "minOSVersion": "15.1"
         }
       ],
