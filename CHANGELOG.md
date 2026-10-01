@@ -6,6 +6,25 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.22.1-202610010842 -->
+## 1.22.1 — nightly — 2026-10-01
+
+Build 202610010842 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.22.1-202610010842/Pumped-nightly-1.22.1-202610010842.ipa)
+
+### Improved
+
+- The workout Live Activity is redesigned. The lock screen shows the exercise, your set and its target, a bar of every set in the session and what's next; while you rest, a big countdown with a draining ring and what's up next.
+- The Dynamic Island shows sets done and the session clock while you lift, and the rest countdown while you rest.
+- The tab bar now reads Home, Training, Library, Journal.
+- Titles stay readable when you scroll: the content passing under the top bar is softly blurred instead of showing through.
+- The segmented controls (Training's timeframe, the Library's sections and others) match the rest of the app, and the selected option is easier to read.
+- Save, Done and other main actions at the top of a screen are white, so they no longer look like Cancel.
+- The thin line under the top bar is gone.
+
+### Fixed
+
+- The calendar opened from your profile no longer flickers a grey band over its content.
+
 <!-- nightly-1.22.0-202610010734 -->
 ## 1.22.0 — nightly — 2026-10-01
 
