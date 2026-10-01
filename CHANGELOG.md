@@ -6,6 +6,51 @@ still spent, and never reused.
 
 Written by `scripts/publish-sideload.sh` in the app repo. Do not edit by hand.
 
+<!-- nightly-1.22.0-202610010734 -->
+## 1.22.0 — nightly — 2026-10-01
+
+Build 202610010734 · [download](https://github.com/rodrigosous-a/pumped-releases/releases/download/nightly-1.22.0-202610010734/Pumped-nightly-1.22.0-202610010734.ipa)
+
+The rest of the app catches up with Home and Training: the live session, Journal, Library, every exercise, your profile, goals and the social screens are rebuilt on the same design. Achievements are awarded again, and rolling splits keep their rest days.
+
+### New
+
+- Every exercise has its own page: a chart of your heaviest weight, estimated 1RM or volume, your PRs, every session you did it and its details. Open it from the Library, Training, a template or a session.
+- In a session, each set shows a Previous column with what you lifted on that set last time, and set types show as a letter on the set's badge.
+- Add several exercises to a session in one go.
+- Swapping an exercise mid-session suggests the same muscle first, then the rest of its group, each with your last numbers.
+- A Settings screen, reached from the gear on your profile.
+- Journal rows show how many days in a row you've kept each item going, and an item's history shows your best streak, the last six months and a month calendar.
+- The calendar shows month totals and a panel for the selected day, with Start for today's planned template.
+- Search remembers the profiles you opened recently. Followers and following are one screen with a search field and Follow back.
+- Tap a muscle on the Muscles page to see which exercises trained it.
+
+### Improved
+
+- The live session: the big clock stays at the top, sets are clean rows with the set you're on highlighted, the rest you took shows above each set, and upcoming exercises fold into compact cards.
+- Rest is a floating timer with +15 and Skip; tap it for the full timer.
+- The set, exercise, weight and history sheets in a session are clearer, with the most-used actions first.
+- A finished session shows one row of figures, a bar splitting the time into lifting and resting, and one card per exercise, with tags for what changed against the template.
+- Journal: yes/no items take one tap, no and skip are a swipe or a touch and hold away, number items show their progress towards the target, and the date and how many items are done sit under the title.
+- The Library's exercises are one A–Z list with favourites first and when you last did each one. Templates are grouped under your split with their exercises, time, when you last did them and which is up next. Your active split shows every day at a glance.
+- The template preview shows muscles in one card and every exercise with its target, rest, last result and alternatives.
+- Your profile shows your follower counts, 20 weeks of consistency and live previews of your goals and weight.
+- Goals and streaks shows the last five weeks of your streak, with rest days that don't break it, today's rings and the achievements closest to earning.
+- Body stats leads with a weight chart and a tile for each measurement you track.
+- The activity summary is a full page that opens on the timeframe and measure you were looking at, with distance, last period's average and a strength and cardio split. Tap or drag across the bars to read a week.
+- The Muscles page has one timeframe, one Sets / Volume / Sessions switch, a larger body map and groups you can expand.
+- Calendar days take their template's colour, with a legend; other people's profiles and search are cleaner.
+
+### Fixed
+
+- Achievements are awarded again. Ones you had already earned appear the first time you open Goals or your profile.
+- A rolling split no longer skips a rest day. Opening the app on the evening of a workout used to spend the next day's rest early, so the day after Lower 1 showed Upper 2 instead of rest.
+- A workout started from Library, a template page or All templates now moves your rolling split on too, carrying on from the workout you did.
+- Scrolling a list with a slight diagonal no longer gets stuck. Rows with swipe actions only take the gesture when you clearly swipe sideways.
+- Activity summary shows your figures and chart again instead of an empty chart, and shows an error instead of zeros when it can't load.
+- The Journal week strip no longer draws over the title when you scroll, and a Journal item's history can be closed.
+- On a session's page, content no longer slides under a see-through bar, and an exercise's note no longer overlaps the next exercise.
+
 <!-- nightly-1.21.0-202609301926 -->
 ## 1.21.0 — nightly — 2026-09-30
 
